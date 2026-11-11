@@ -1,0 +1,194 @@
+[
+  {
+    "product_id": "1607",
+    "sku": "DKSC01825",
+    "frame_shape": "wayfarer",
+    "confidence": 0.7,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "2875",
+    "sku": "DKE013137",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "no lens pair found"
+  },
+  {
+    "product_id": "2641",
+    "sku": "DKE011145",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "1682",
+    "sku": "DKECR0254",
+    "frame_shape": "unknown",
+    "confidence": 0.39,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "2795",
+    "sku": "DKS013023",
+    "frame_shape": "rectangle",
+    "confidence": 0.75,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "2577",
+    "sku": "DKS012891",
+    "frame_shape": "geometric",
+    "confidence": 0.59,
+    "image_used": "gallery:3",
+    "note": ""
+  },
+  {
+    "product_id": "2755",
+    "sku": "DKSM00997",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "no lens pair found"
+  },
+  {
+    "product_id": "249",
+    "sku": null,
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "no lens pair found"
+  },
+  {
+    "product_id": "1191",
+    "sku": null,
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "244",
+    "sku": "DKE012258",
+    "frame_shape": "unknown",
+    "confidence": 0.39,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "445",
+    "sku": "DKE012038",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "2769",
+    "sku": "DKECR0782",
+    "frame_shape": "wayfarer",
+    "confidence": 0.6,
+    "image_used": "gallery:1",
+    "note": ""
+  },
+  {
+    "product_id": "1393",
+    "sku": null,
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "187",
+    "sku": "DKS012223",
+    "frame_shape": "unknown",
+    "confidence": 0.39,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "474",
+    "sku": null,
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "2772",
+    "sku": "DKE06733",
+    "frame_shape": "wayfarer",
+    "confidence": 0.66,
+    "image_used": "gallery:1",
+    "note": ""
+  },
+  {
+    "product_id": "428",
+    "sku": "DKE012155",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "2572",
+    "sku": "DKS012888",
+    "frame_shape": "geometric",
+    "confidence": 0.6,
+    "image_used": "gallery:3",
+    "note": ""
+  },
+  {
+    "product_id": "1238",
+    "sku": "DKE02320",
+    "frame_shape": "unknown",
+    "confidence": 0.36,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "313",
+    "sku": "DKS012124",
+    "frame_shape": "unknown",
+    "confidence": 0.29,
+    "image_used": "main",
+    "note": ""
+  },
+  {
+    "product_id": "2466",
+    "sku": "DKS012838",
+    "frame_shape": "wayfarer",
+    "confidence": 0.49,
+    "image_used": "gallery:1",
+    "note": ""
+  },
+  {
+    "product_id": "2770",
+    "sku": "DKE02393",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  },
+  {
+    "product_id": "2879",
+    "sku": "DKE013151",
+    "frame_shape": "wayfarer",
+    "confidence": 0.44,
+    "image_used": "gallery:1",
+    "note": ""
+  },
+  {
+    "product_id": "2198",
+    "sku": "DKE012585",
+    "frame_shape": "unknown",
+    "confidence": 0.0,
+    "image_used": "main",
+    "note": "only lens fragments found"
+  }
+]

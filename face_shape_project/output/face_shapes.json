@@ -1,0 +1,34 @@
+[
+  {
+    "status": "ok",
+    "issues": [],
+    "face_shape": "oblong",
+    "confidence": 0.63,
+    "alternatives": [
+      {
+        "shape": "oblong",
+        "score": 0.63
+      },
+      {
+        "shape": "oval",
+        "score": 0.3
+      },
+      {
+        "shape": "square",
+        "score": 0.06
+      }
+    ],
+    "needs_confirmation": false,
+    "measurements": {
+      "length_cheek": 1.273,
+      "jaw_cheek": 0.807,
+      "fore_jaw": 1.109,
+      "chin_angle": 114.173,
+      "yaw": 1.69,
+      "roll": 1.08,
+      "nose_ratio": 0.382,
+      "face_h_frac": 0.472
+    },
+    "id": "face.jpg"
+  }
+]

@@ -1,0 +1,101 @@
+
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==============================
+# IDE & Editors
+# ==============================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==============================
+# Environment & Secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+credentials/
+
+
+
+# ==============================
+# ML Models & Weights
+# ==============================
+*.onnx
+*.pt
+*.pth
+*.h5
+*.pb
+*.tflite
+*.safetensors
+models/
+weights/
+checkpoints/
+
+# ==============================
+# Logs & Temporary Files
+# ==============================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ==============================
+# OS Files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Jupyter
+# ==============================
+.ipynb_checkpoints/
+
+# ==============================
+# Node (if applicable)
+# ==============================
+node_modules/
+npm-debug.log*
+
+
+*.db
+*.sqlite
+*.sqlite3
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+dataset/
+images/
+uploads/
+outputs/
+generated/
+.venv/

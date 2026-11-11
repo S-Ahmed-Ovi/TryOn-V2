@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "new-arrived-premium-eyeglass",
+    "kind": "no description",
+    "http": 200,
+    "name_match": true,
+    "description": "both empty",
+    "images_json": 4,
+    "images_page": 4,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "cat-eye-shape-premium-quality-sunglasses-2",
+    "kind": "legacy wp-content image",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 4,
+    "images_page": 4,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "new-premium-square-shape-eyeglasses",
+    "kind": "boilerplate in text",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 4,
+    "images_page": 4,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "unique-design-golden-frame-sunglass",
+    "kind": "single image",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 1,
+    "images_page": 1,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "new-unique-design-eyeglasses",
+    "kind": "5+ images",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 5,
+    "images_page": 5,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "premium-glossy-black-color-sunglass",
+    "kind": "typical",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 4,
+    "images_page": 4,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "golden-color-luxurious-halfrim-eyeglasses",
+    "kind": "typical",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 4,
+    "images_page": 4,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  },
+  {
+    "slug": "new-double-bridge-fashionable-sunglass",
+    "kind": "typical",
+    "http": 200,
+    "name_match": true,
+    "description": "match",
+    "images_json": 1,
+    "images_page": 1,
+    "images_only_in_json": [],
+    "images_only_in_page": [],
+    "main_match": true
+  }
+]

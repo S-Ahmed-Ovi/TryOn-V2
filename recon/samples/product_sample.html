@@ -1,0 +1,1764 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | dukpion – Sunglasses & Eye Care</title>
+    <meta name="description" content="dukpion – Largest online eye care shop. Shop sunglasses, eyeglasses and designer eyewear.">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: { black: '#1a1a1a', blue: '#2563eb', 'blue-dark': '#1d4ed8' }
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <link rel="icon" type="image/png" href="https://dukpion.com.bd/image.png">
+    
+        <!-- Custom Header Tracking Code -->
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '502773736185828');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=502773736185828&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E6YTPNVM1V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-E6YTPNVM1V');
+</script>    <!-- End Custom Header Tracking Code -->
+        <style>
+        /* Compact dropdown navigation styles */
+        .nav-item:hover > .nav-dropdown {
+            display: block;
+        }
+        .nav-submenu-item:hover > .nav-submenu {
+            display: block;
+        }
+        /* Smooth transitions */
+        .nav-dropdown, .nav-submenu {
+            animation: fadeIn 0.15s ease-in;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-4px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* App-style mobile menu: drawer slides from left, full height */
+        #mobile-menu-backdrop {
+            transition: opacity 0.3s ease;
+        }
+        #mobile-menu-backdrop.is-open {
+            opacity: 1;
+            visibility: visible;
+            pointer-events: auto;
+        }
+        #mobile-menu-drawer {
+            transform: translateX(-100%);
+            transition: transform 0.35s cubic-bezier(0.32, 0.72, 0, 1);
+            height: 100dvh;
+            height: 100vh;
+        }
+        #mobile-menu-drawer.is-open {
+            transform: translateX(0);
+        }
+        .mobile-menu-cards { transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1); }
+        .mobile-menu-card { min-width: 100%; flex-shrink: 0; }
+    </style>
+</head>
+<body class="bg-white text-brand-black antialiased">
+<header class="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-slate-200">
+    <!-- Top bar: mobile = [burger] [logo center] [account] [cart] + search below; desktop = logo | search | account & cart -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Mobile: row 1 = burger (left), logo (center), account & cart (right) -->
+        <div class="flex md:hidden items-center justify-between h-14">
+            <div class="w-10 flex items-center justify-start shrink-0">
+                <button type="button" class="p-2 -ml-2 text-brand-black hover:text-brand-blue" aria-label="Menu" id="top-menu-toggle" aria-expanded="false" aria-controls="mobile-menu-drawer">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+            <a href="https://dukpion.com.bd/" class="absolute left-1/2 -translate-x-1/2 flex items-center" aria-label="dukpion Home">
+                <img src="https://dukpion.com.bd/image.png" alt="dukpion – Largest Online Eye Care Shop" class="h-9 w-auto object-contain">
+            </a>
+            <div class="flex items-center gap-0 shrink-0">
+                <a href="/account" class="p-2.5 text-brand-black hover:text-brand-blue" aria-label="Account">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                </a>
+                <button type="button" id="side-cart-toggle" class="relative p-2.5 text-brand-black hover:text-brand-blue" aria-label="Cart" aria-expanded="false" aria-controls="side-cart">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                                    </button>
+            </div>
+        </div>
+        <!-- Mobile: row 2 = search full width -->
+        <div class="flex md:hidden pb-3 px-0">
+            <form action="/search" method="get" class="w-full header-search-form">
+                <label for="header-search" class="sr-only">Search</label>
+                <div class="relative header-search-wrap">
+                    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    <input type="search" id="header-search" name="q" placeholder="Search sunglasses, collections…" autocomplete="off" class="header-search-input w-full h-10 pl-10 pr-4 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition text-brand-black placeholder-slate-500">
+                    <div id="search-suggestions-mobile" class="search-suggestions absolute left-0 right-0 top-full mt-1 bg-white rounded-xl border border-slate-200 shadow-xl z-[100] max-h-[min(70vh,400px)] overflow-y-auto hidden" aria-hidden="true"></div>
+                </div>
+            </form>
+        </div>
+        <!-- Desktop: single row logo | search | account & cart -->
+        <div class="hidden md:flex items-center gap-4 h-16">
+            <a href="https://dukpion.com.bd/" class="flex items-center shrink-0" aria-label="dukpion Home">
+                <img src="https://dukpion.com.bd/image.png" alt="dukpion – Largest Online Eye Care Shop" class="h-11 w-auto object-contain">
+            </a>
+            <form action="/search" method="get" class="flex-1 max-w-2xl mx-8 header-search-form">
+                <label for="header-search-desktop" class="sr-only">Search</label>
+                <div class="relative header-search-wrap">
+                    <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400 pointer-events-none" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+                    <input type="search" id="header-search-desktop" name="q" placeholder="Search sunglasses, collections…" autocomplete="off" class="header-search-input w-full h-11 pl-10 pr-4 rounded-lg border border-slate-300 bg-slate-50 focus:bg-white focus:border-brand-blue focus:ring-2 focus:ring-brand-blue/20 outline-none transition text-brand-black placeholder-slate-500">
+                    <div id="search-suggestions-desktop" class="search-suggestions absolute left-0 right-0 top-full mt-1 bg-white rounded-xl border border-slate-200 shadow-xl z-[100] max-h-[min(70vh,400px)] overflow-y-auto hidden" aria-hidden="true"></div>
+                </div>
+            </form>
+            <div class="flex items-center gap-2 shrink-0">
+                <a href="/account" class="flex items-center gap-2 px-3 py-2 text-brand-black hover:text-brand-blue font-medium text-sm" aria-label="Account">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                    <span class="hidden sm:inline">Account</span>
+                </a>
+                <button type="button" id="side-cart-toggle-desk" class="flex items-center gap-2 px-3 py-2 text-brand-black hover:text-brand-blue font-medium text-sm" aria-label="Cart" aria-expanded="false" aria-controls="side-cart">
+                    <span class="relative inline-block">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
+                                            </span>
+                    <span class="hidden sm:inline">Cart</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- Compact Navigation Bar -->
+    <nav class="bg-white border-t border-slate-200 shadow-sm" aria-label="Main navigation">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="hidden md:flex items-center justify-between h-11">
+                <ul class="hidden md:flex items-center gap-0 list-none -mx-1">
+                                                                        <li class="relative nav-item">
+                                <a href="/category/eyeglasses" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                    <span class="whitespace-nowrap">EYEGLASSESS</span>
+                                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                                <div class="nav-dropdown absolute left-0 top-full hidden z-50 pt-0.5">
+                                    <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[200px] mt-0.5">
+                                        <a href="/category/eyeglasses" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-brand-blue hover:bg-blue-50 border-b border-slate-100">
+                                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View All
+                                        </a>
+                                                                                                                                    <div class="relative nav-submenu-item">
+                                                    <a href="/category/nav-eyeglasses-mens" class="flex items-center justify-between px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                        <span class="flex items-center gap-2 font-medium">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            MEN&#039;S EYEGLASS                                                        </span>
+                                                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </a>
+                                                    <div class="nav-submenu absolute left-full top-0 hidden z-50 ml-0.5">
+                                                        <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[160px]">
+                                                                                                                            <a href="/category/nav-eyeglasses-mens-economy" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">ECONOMY</a>
+                                                                                                                            <a href="/category/nav-eyeglasses-mens-premium" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">PREMIUM</a>
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <a href="/category/nav-eyeglasses-womens" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    WOMEN&#039;S EYEGLASS                                                </a>
+                                                                                                                                                                                <a href="/category/nav-eyeglasses-kids" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    KID&#039;S EYEGLASS                                                </a>
+                                                                                                                        </div>
+                                </div>
+                            </li>
+                                                                                                <li class="relative nav-item">
+                                <a href="/category/sunglasses" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>                                    <span class="whitespace-nowrap">SUNGLASSES</span>
+                                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                                <div class="nav-dropdown absolute left-0 top-full hidden z-50 pt-0.5">
+                                    <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[200px] mt-0.5">
+                                        <a href="/category/sunglasses" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-brand-blue hover:bg-blue-50 border-b border-slate-100">
+                                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View All
+                                        </a>
+                                                                                                                                    <div class="relative nav-submenu-item">
+                                                    <a href="/category/nav-sunglasses-mens" class="flex items-center justify-between px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                        <span class="flex items-center gap-2 font-medium">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            MEN&#039;S SUNGLASS                                                        </span>
+                                                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </a>
+                                                    <div class="nav-submenu absolute left-full top-0 hidden z-50 ml-0.5">
+                                                        <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[160px]">
+                                                                                                                            <a href="/category/nav-sunglasses-mens-economy" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">ECONOMY SUNGLASSES</a>
+                                                                                                                            <a href="/category/nav-sunglasses-mens-premium" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">PREMIUM SUNGLASSES</a>
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <a href="/category/nav-sunglasses-womens" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    WOMEN&#039;S SUNGLASS                                                </a>
+                                                                                                                                                                                <a href="/category/nav-sunglasses-kids" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    KID&#039;S SUNGLASS                                                </a>
+                                                                                                                                                                                <a href="/category/nav-sunglasses-magnetic" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    MAGNETIC GLASSESS                                                </a>
+                                                                                                                        </div>
+                                </div>
+                            </li>
+                                                                                                <li class="relative nav-item">
+                                <a href="/category/designer-eyewear" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>                                    <span class="whitespace-nowrap">DESIGNER EYEWEAR</span>
+                                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                                <div class="nav-dropdown absolute left-0 top-full hidden z-50 pt-0.5">
+                                    <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[200px] mt-0.5">
+                                        <a href="/category/designer-eyewear" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-brand-blue hover:bg-blue-50 border-b border-slate-100">
+                                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View All
+                                        </a>
+                                                                                                                                    <div class="relative nav-submenu-item">
+                                                    <a href="/category/nav-designer-eyeglasses" class="flex items-center justify-between px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                        <span class="flex items-center gap-2 font-medium">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            DESIGNER EYEGLASSES                                                        </span>
+                                                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </a>
+                                                    <div class="nav-submenu absolute left-full top-0 hidden z-50 ml-0.5">
+                                                        <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[160px]">
+                                                                                                                            <a href="/category/nav-designer-eyeglasses-mens" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">DESIGNER MEN</a>
+                                                                                                                            <a href="/category/nav-designer-eyeglasses-womens" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">DESIGNER WOMEN</a>
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <div class="relative nav-submenu-item">
+                                                    <a href="/category/nav-designer-sunglasses" class="flex items-center justify-between px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                        <span class="flex items-center gap-2 font-medium">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            DESIGNER SUNGLASSES                                                        </span>
+                                                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </a>
+                                                    <div class="nav-submenu absolute left-full top-0 hidden z-50 ml-0.5">
+                                                        <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[160px]">
+                                                                                                                            <a href="/category/nav-designer-sunglasses-mens" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">DESIGNER MEN&#039;S</a>
+                                                                                                                            <a href="/category/nav-designer-sunglasses-womens" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">DESIGNER WOMEN&#039;S</a>
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                                                        </div>
+                                </div>
+                            </li>
+                                                                                                <li>
+                                <a href="/category/free-frame" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                    <span class="whitespace-nowrap">FREE FRAME</span>
+                                </a>
+                            </li>
+                                                                                                <li class="relative nav-item">
+                                <a href="/category/all-offers" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                    <span class="whitespace-nowrap">ALL OFFERS</span>
+                                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                                <div class="nav-dropdown absolute left-0 top-full hidden z-50 pt-0.5">
+                                    <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[200px] mt-0.5">
+                                        <a href="/category/all-offers" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-brand-blue hover:bg-blue-50 border-b border-slate-100">
+                                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View All
+                                        </a>
+                                                                                                                                    <div class="relative nav-submenu-item">
+                                                    <a href="/category/50-off" class="flex items-center justify-between px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                        <span class="flex items-center gap-2 font-medium">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            FIRST ORDER 50%OFF                                                        </span>
+                                                        <svg class="w-3.5 h-3.5 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </a>
+                                                    <div class="nav-submenu absolute left-full top-0 hidden z-50 ml-0.5">
+                                                        <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[160px]">
+                                                                                                                            <a href="/category/50-off-eyeglass" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">EYEGLASS 50% OFF</a>
+                                                                                                                            <a href="/category/sunglass" class="block px-4 py-2 text-[13px] text-slate-600 hover:bg-slate-50 hover:text-brand-blue">SUNGLASS 50% OFF</a>
+                                                                                                                    </div>
+                                                    </div>
+                                                </div>
+                                                                                                                                                                                <a href="/category/photochromic" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>                                                    PHOTOCHROMIC                                                </a>
+                                                                                                                                                                                <a href="/category/blue-cut-glass" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    BLUE-CUT GLASS                                                </a>
+                                                                                                                        </div>
+                                </div>
+                            </li>
+                                                                                                <li class="relative nav-item">
+                                <a href="/category/accessories" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>                                    <span class="whitespace-nowrap">ACCESSORIES</span>
+                                    <svg class="w-3 h-3 opacity-50" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7"/></svg>
+                                </a>
+                                <div class="nav-dropdown absolute left-0 top-full hidden z-50 pt-0.5">
+                                    <div class="bg-white rounded-md border border-slate-200 shadow-xl py-1.5 min-w-[200px] mt-0.5">
+                                        <a href="/category/accessories" class="flex items-center gap-2 px-4 py-2 text-xs font-semibold text-brand-blue hover:bg-blue-50 border-b border-slate-100">
+                                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View All
+                                        </a>
+                                                                                                                                    <a href="/category/optical-lens" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    OPTICAL LENS                                                </a>
+                                                                                                                                                                                <a href="/category/contact-lens" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    CONTACT LENS                                                </a>
+                                                                                                                                                                                <a href="/category/box-amp-cleaner" class="flex items-center gap-2 px-4 py-2 text-[13px] text-slate-700 hover:bg-slate-50 hover:text-brand-blue">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    BOX &amp; LENS CLEANER                                                </a>
+                                                                                                                        </div>
+                                </div>
+                            </li>
+                                                                                                <li>
+                                <a href="/stores" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>                                    <span class="whitespace-nowrap">OUR STORES</span>
+                                </a>
+                            </li>
+                                                                <li>
+                        <a href="/contact" class="flex items-center gap-1.5 h-11 px-2.5 text-[12px] font-medium text-slate-700 hover:text-brand-blue hover:bg-slate-50 border-b-2 border-transparent hover:border-brand-blue transition-all">
+                            <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                            <span class="whitespace-nowrap">Contact</span>
+                        </a>
+                    </li>
+                </ul>
+                <button type="button" class="hidden md:hidden p-2 text-slate-700 hover:text-brand-blue hover:bg-slate-50 rounded-md" aria-label="Toggle menu" id="menu-toggle">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu: app-style drawer, full height, slides in from left -->
+        <div id="mobile-menu-backdrop" class="fixed inset-0 z-[55] bg-black/50 opacity-0 invisible pointer-events-none md:invisible md:pointer-events-none" aria-hidden="true"></div>
+        <div id="mobile-menu-drawer" class="fixed left-0 top-0 z-[60] w-full max-w-[320px] sm:max-w-[360px] flex flex-col bg-white shadow-2xl md:invisible md:pointer-events-none" aria-hidden="true" role="dialog" aria-label="Menu">
+            <div class="flex flex-col flex-1 min-h-0">
+                <div class="relative flex items-center justify-between h-14 px-4 border-b border-slate-200 shrink-0 bg-white">
+                    <button type="button" id="mobile-menu-back" class="mobile-menu-back w-10 h-10 -ml-2 flex items-center justify-center text-slate-600 hover:text-brand-blue hidden shrink-0" aria-label="Back">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+                    </button>
+                    <span id="mobile-menu-title" class="absolute left-0 right-0 text-center text-base font-semibold text-brand-black pointer-events-none">Menu</span>
+                    <button type="button" id="mobile-menu-close" class="w-10 h-10 -mr-2 flex items-center justify-center text-slate-600 hover:text-brand-blue shrink-0" aria-label="Close menu">
+                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+                    </button>
+                </div>
+                <div class="flex-1 overflow-hidden min-h-0">
+                    <div id="mobile-menu-cards" class="mobile-menu-cards flex h-full">
+                        <!-- Card 0: Main menu -->
+                        <div id="mobile-card-main" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="0">
+                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                <div class="space-y-1">
+                                                                                                                        <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r10">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    <span class="font-semibold text-slate-900">EYEGLASSESS</span>
+                                                </span>
+                                                <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                            </button>
+                                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r1">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>                                                    <span class="font-semibold text-slate-900">SUNGLASSES</span>
+                                                </span>
+                                                <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                            </button>
+                                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r7">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/></svg>                                                    <span class="font-semibold text-slate-900">DESIGNER EYEWEAR</span>
+                                                </span>
+                                                <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                            </button>
+                                                                                                                                                                <a href="/category/free-frame" class="mobile-menu-row flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    <span class="font-semibold text-slate-900">FREE FRAME</span>
+                                                </span>
+                                            </a>
+                                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r50">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                    <span class="font-semibold text-slate-900">ALL OFFERS</span>
+                                                </span>
+                                                <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                            </button>
+                                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r3">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"/></svg>                                                    <span class="font-semibold text-slate-900">ACCESSORIES</span>
+                                                </span>
+                                                <svg class="w-5 h-5 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                            </button>
+                                                                                                                                                                <a href="/stores" class="mobile-menu-row flex items-center justify-between gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                <span class="flex items-center gap-3">
+                                                    <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg>                                                    <span class="font-semibold text-slate-900">OUR STORES</span>
+                                                </span>
+                                            </a>
+                                                                                                                <a href="/contact" class="mobile-menu-row flex items-center gap-3 py-3.5 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                        <svg class="w-5 h-5 text-slate-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
+                                        <span class="font-semibold text-slate-900">Contact</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                                                                                    <div id="mobile-card-r10" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="1" data-back="mobile-card-main" data-title="EYEGLASSESS">
+                                    <div class="flex-1 overflow-y-auto px-4 py-4">
+                                        <a href="/category/eyeglasses" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View all EYEGLASSESS                                        </a>
+                                        <div class="space-y-1">
+                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r10-c101">
+                                                        <span class="flex items-center gap-3">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            <span class="font-medium text-slate-900">MEN&#039;S EYEGLASS</span>
+                                                        </span>
+                                                        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </button>
+                                                                                                                                                                                                <a href="/category/nav-eyeglasses-womens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">WOMEN&#039;S EYEGLASS</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/nav-eyeglasses-kids" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">KID&#039;S EYEGLASS</span>
+                                                    </a>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                                                                                            <div id="mobile-card-r10-c101" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="2" data-back="mobile-card-r10" data-title="MEN&#039;S EYEGLASS">
+                                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                                <a href="/category/nav-eyeglasses-mens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                                    View all MEN&#039;S EYEGLASS                                                </a>
+                                                <div class="space-y-1">
+                                                                                                            <a href="/category/nav-eyeglasses-mens-economy" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">ECONOMY</span>
+                                                        </a>
+                                                                                                            <a href="/category/nav-eyeglasses-mens-premium" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">PREMIUM</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                            <div id="mobile-card-r1" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="1" data-back="mobile-card-main" data-title="SUNGLASSES">
+                                    <div class="flex-1 overflow-y-auto px-4 py-4">
+                                        <a href="/category/sunglasses" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View all SUNGLASSES                                        </a>
+                                        <div class="space-y-1">
+                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r1-c201">
+                                                        <span class="flex items-center gap-3">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            <span class="font-medium text-slate-900">MEN&#039;S SUNGLASS</span>
+                                                        </span>
+                                                        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </button>
+                                                                                                                                                                                                <a href="/category/nav-sunglasses-womens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">WOMEN&#039;S SUNGLASS</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/nav-sunglasses-kids" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">KID&#039;S SUNGLASS</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/nav-sunglasses-magnetic" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">MAGNETIC GLASSESS</span>
+                                                    </a>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                                                                                            <div id="mobile-card-r1-c201" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="2" data-back="mobile-card-r1" data-title="MEN&#039;S SUNGLASS">
+                                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                                <a href="/category/nav-sunglasses-mens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                                    View all MEN&#039;S SUNGLASS                                                </a>
+                                                <div class="space-y-1">
+                                                                                                            <a href="/category/nav-sunglasses-mens-economy" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">ECONOMY SUNGLASSES</span>
+                                                        </a>
+                                                                                                            <a href="/category/nav-sunglasses-mens-premium" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">PREMIUM SUNGLASSES</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                <div id="mobile-card-r7" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="1" data-back="mobile-card-main" data-title="DESIGNER EYEWEAR">
+                                    <div class="flex-1 overflow-y-auto px-4 py-4">
+                                        <a href="/category/designer-eyewear" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View all DESIGNER EYEWEAR                                        </a>
+                                        <div class="space-y-1">
+                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r7-c71">
+                                                        <span class="flex items-center gap-3">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            <span class="font-medium text-slate-900">DESIGNER EYEGLASSES</span>
+                                                        </span>
+                                                        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </button>
+                                                                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r7-c72">
+                                                        <span class="flex items-center gap-3">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            <span class="font-medium text-slate-900">DESIGNER SUNGLASSES</span>
+                                                        </span>
+                                                        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </button>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                                                                                            <div id="mobile-card-r7-c71" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="2" data-back="mobile-card-r7" data-title="DESIGNER EYEGLASSES">
+                                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                                <a href="/category/nav-designer-eyeglasses" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                                    View all DESIGNER EYEGLASSES                                                </a>
+                                                <div class="space-y-1">
+                                                                                                            <a href="/category/nav-designer-eyeglasses-mens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">DESIGNER MEN</span>
+                                                        </a>
+                                                                                                            <a href="/category/nav-designer-eyeglasses-womens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">DESIGNER WOMEN</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                <div id="mobile-card-r7-c72" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="2" data-back="mobile-card-r7" data-title="DESIGNER SUNGLASSES">
+                                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                                <a href="/category/nav-designer-sunglasses" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                                    View all DESIGNER SUNGLASSES                                                </a>
+                                                <div class="space-y-1">
+                                                                                                            <a href="/category/nav-designer-sunglasses-mens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">DESIGNER MEN&#039;S</span>
+                                                        </a>
+                                                                                                            <a href="/category/nav-designer-sunglasses-womens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">DESIGNER WOMEN&#039;S</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                                                        <div id="mobile-card-r50" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="1" data-back="mobile-card-main" data-title="ALL OFFERS">
+                                    <div class="flex-1 overflow-y-auto px-4 py-4">
+                                        <a href="/category/all-offers" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View all ALL OFFERS                                        </a>
+                                        <div class="space-y-1">
+                                                                                                                                                <button type="button" class="mobile-menu-row w-full flex items-center justify-between gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 text-left hover:bg-slate-50 active:bg-slate-100 transition-colors" data-open="mobile-card-r50-c15">
+                                                        <span class="flex items-center gap-3">
+                                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                            <span class="font-medium text-slate-900">FIRST ORDER 50%OFF</span>
+                                                        </span>
+                                                        <svg class="w-4 h-4 text-slate-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+                                                    </button>
+                                                                                                                                                                                                <a href="/category/photochromic" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/></svg>                                                        <span class="font-medium text-slate-900">PHOTOCHROMIC</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/blue-cut-glass" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">BLUE-CUT GLASS</span>
+                                                    </a>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                                                                                            <div id="mobile-card-r50-c15" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="2" data-back="mobile-card-r50" data-title="FIRST ORDER 50%OFF">
+                                            <div class="flex-1 overflow-y-auto px-4 py-4">
+                                                <a href="/category/50-off" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                                    View all FIRST ORDER 50%OFF                                                </a>
+                                                <div class="space-y-1">
+                                                                                                            <a href="/category/50-off-eyeglass" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">EYEGLASS 50% OFF</span>
+                                                        </a>
+                                                                                                            <a href="/category/sunglass" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                            <span class="font-medium text-slate-900">SUNGLASS 50% OFF</span>
+                                                        </a>
+                                                                                                    </div>
+                                            </div>
+                                        </div>
+                                                                                                                                                                                                                                                                                                                            <div id="mobile-card-r3" class="mobile-menu-card flex flex-col bg-slate-50" data-depth="1" data-back="mobile-card-main" data-title="ACCESSORIES">
+                                    <div class="flex-1 overflow-y-auto px-4 py-4">
+                                        <a href="/category/accessories" class="mobile-menu-row flex items-center gap-3 py-3 px-4 mb-2 bg-brand-blue/10 text-brand-blue rounded-xl font-medium hover:bg-brand-blue/20 transition-colors">
+                                            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"/></svg>
+                                            View all ACCESSORIES                                        </a>
+                                        <div class="space-y-1">
+                                                                                                                                                <a href="/category/optical-lens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">OPTICAL LENS</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/contact-lens" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">CONTACT LENS</span>
+                                                    </a>
+                                                                                                                                                                                                <a href="/category/box-amp-cleaner" class="mobile-menu-row flex items-center gap-3 py-3 px-4 bg-white rounded-xl shadow-sm border border-slate-100 hover:bg-slate-50 active:bg-slate-100 transition-colors">
+                                                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"/></svg>                                                        <span class="font-medium text-slate-900">BOX &amp; LENS CLEANER</span>
+                                                    </a>
+                                                                                                                                    </div>
+                                    </div>
+                                </div>
+                                                                                                                                                                                                                                                                                                                                                                        </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Side cart drawer -->
+<div id="side-cart-overlay" class="fixed inset-0 bg-black/40 z-40 opacity-0 pointer-events-none transition-opacity duration-200" aria-hidden="true"></div>
+<div id="side-cart" class="fixed top-0 right-0 h-full w-full max-w-md bg-white shadow-2xl z-50 flex flex-col transform translate-x-full transition-transform duration-300 ease-out" aria-modal="true" aria-label="Shopping cart" role="dialog">
+    <div class="flex items-center justify-between px-4 py-4 border-b border-slate-200 shrink-0">
+        <h2 class="text-lg font-bold text-brand-black">Your Cart</h2>
+        <button type="button" id="side-cart-close" class="p-2 -mr-2 text-slate-500 hover:text-brand-black" aria-label="Close cart">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+    </div>
+    <div class="flex-1 overflow-y-auto px-4 py-3">
+                <p class="text-slate-600 py-8 text-center">Your cart is empty.</p>
+        <a href="/" class="block text-center text-brand-blue font-medium hover:underline">Continue shopping</a>
+            </div>
+    </div>
+<script>
+(function() {
+    var overlay = document.getElementById('side-cart-overlay');
+    var panel = document.getElementById('side-cart');
+    var open = function() {
+        overlay.classList.remove('pointer-events-none');
+        overlay.classList.remove('opacity-0');
+        panel.classList.remove('translate-x-full');
+        document.body.style.overflow = 'hidden';
+        document.querySelectorAll('[id="side-cart-toggle"], [id="side-cart-toggle-desk"]').forEach(function(b){ b.setAttribute('aria-expanded', 'true'); });
+    };
+    var close = function() {
+        overlay.classList.add('pointer-events-none');
+        overlay.classList.add('opacity-0');
+        panel.classList.add('translate-x-full');
+        document.body.style.overflow = '';
+        document.querySelectorAll('[id="side-cart-toggle"], [id="side-cart-toggle-desk"]').forEach(function(b){ b.setAttribute('aria-expanded', 'false'); });
+    };
+    document.getElementById('side-cart-toggle')?.addEventListener('click', open);
+    document.getElementById('side-cart-toggle-desk')?.addEventListener('click', open);
+    document.getElementById('side-cart-close')?.addEventListener('click', close);
+    overlay?.addEventListener('click', close);
+    // Open side cart when returning from add-to-cart (URL has sidecart=1)
+    if (window.location.search.indexOf('sidecart=1') !== -1) {
+        var u = new URL(window.location.href);
+        u.searchParams.delete('sidecart');
+        u.searchParams.delete('coupon_error');
+        window.history.replaceState({}, '', u.pathname + u.search + u.hash);
+        open();
+    }
+})();
+
+// AJAX search suggestions
+(function(){
+    var baseUrl = '';
+    var searchDebounce = null;
+    var lastQuery = '';
+    var lastReq = null;
+
+    function getSuggestionsEl(input) {
+        return input.id === 'header-search' ? document.getElementById('search-suggestions-mobile') : document.getElementById('search-suggestions-desktop');
+    }
+
+    function renderSuggestions(container, data, q) {
+        if (!data.products || data.products.length === 0) {
+            container.innerHTML = '<div class="p-4 text-slate-500 text-sm">No products found. Try different keywords.</div>';
+            container.classList.remove('hidden');
+            container.setAttribute('aria-hidden', 'false');
+            return;
+        }
+        var html = '';
+        data.products.forEach(function(p) {
+            var img = (p.image || '').replace(/"/g, '&quot;');
+            var name = (p.name || '').replace(/</g, '&lt;').replace(/"/g, '&quot;');
+            var slug = (p.slug || '').replace(/"/g, '');
+            var price = p.sale_price && parseFloat(p.sale_price) < parseFloat(p.price) ? parseFloat(p.sale_price) : parseFloat(p.price);
+            var priceStr = '৳' + (isNaN(price) ? '—' : Math.round(price).toLocaleString());
+            html += '<a href="' + baseUrl + '/product/' + slug + '" class="flex items-center gap-3 p-3 hover:bg-slate-50 border-b border-slate-100 last:border-0 text-left transition-colors">';
+            html += '<div class="w-12 h-12 rounded-lg bg-slate-100 overflow-hidden shrink-0 flex items-center justify-center">';
+            if (img) html += '<img src="' + img + '" alt="" class="w-full h-full object-cover">';
+            else html += '<svg class="w-6 h-6 text-slate-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14"/></svg>';
+            html += '</div><div class="min-w-0 flex-1"><p class="font-medium text-slate-800 truncate">' + name + '</p><p class="text-sm text-brand-blue font-semibold">' + priceStr + '</p></div></a>';
+        });
+        html += '<a href="' + baseUrl + '/search?q=' + encodeURIComponent(q) + '" class="block p-3 text-center text-brand-blue font-medium text-sm bg-slate-50 hover:bg-slate-100 rounded-b-xl transition-colors">View all ' + (data.total || 0) + ' results</a>';
+        container.innerHTML = html;
+        container.classList.remove('hidden');
+        container.setAttribute('aria-hidden', 'false');
+    }
+
+    function fetchSuggestions(q, input) {
+        if (!q || q.length < 2) {
+            getSuggestionsEl(input).classList.add('hidden');
+            getSuggestionsEl(input).setAttribute('aria-hidden', 'true');
+            return;
+        }
+        if (lastReq) lastReq.abort();
+        var requestQ = q;
+        var xhr = new XMLHttpRequest();
+        lastReq = xhr;
+        xhr.open('GET', baseUrl + '/search?q=' + encodeURIComponent(q) + '&ajax=1');
+        xhr.setRequestHeader('X-Requested-With', 'XMLHttpRequest');
+        xhr.onload = function() {
+            lastReq = null;
+            if (lastQuery !== requestQ) return;
+            var container = getSuggestionsEl(input);
+            try {
+                var data = JSON.parse(xhr.responseText);
+                renderSuggestions(container, data, requestQ);
+            } catch (e) {
+                container.classList.add('hidden');
+            }
+        };
+        xhr.onerror = function() { lastReq = null; getSuggestionsEl(input).classList.add('hidden'); };
+        xhr.send();
+    }
+
+    function onSearchInput(e) {
+        var input = e.target;
+        var q = (input.value || '').trim();
+        lastQuery = q;
+        if (searchDebounce) clearTimeout(searchDebounce);
+        if (q.length < 2) {
+            getSuggestionsEl(input).classList.add('hidden');
+            getSuggestionsEl(input).setAttribute('aria-hidden', 'true');
+            return;
+        }
+        searchDebounce = setTimeout(function() { fetchSuggestions(q, input); }, 280);
+    }
+
+    function hideSuggestions(input) {
+        var el = getSuggestionsEl(input);
+        el.classList.add('hidden');
+        el.setAttribute('aria-hidden', 'true');
+    }
+
+    document.querySelectorAll('.header-search-input').forEach(function(input) {
+        input.addEventListener('input', onSearchInput);
+        input.addEventListener('focus', function() {
+            if ((input.value || '').trim().length >= 2 && getSuggestionsEl(input).innerHTML) {
+                getSuggestionsEl(input).classList.remove('hidden');
+                getSuggestionsEl(input).setAttribute('aria-hidden', 'false');
+            }
+        });
+        input.addEventListener('blur', function() {
+            setTimeout(function() {
+                var box = getSuggestionsEl(input);
+                var active = document.activeElement;
+                if (box && box.contains(active)) return;
+                hideSuggestions(input);
+            }, 200);
+        });
+        input.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') hideSuggestions(input);
+        });
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') {
+            document.querySelectorAll('.search-suggestions').forEach(function(el) {
+                el.classList.add('hidden');
+                el.setAttribute('aria-hidden', 'true');
+            });
+        }
+    });
+})();
+</script>
+
+<main>
+<style>
+/* Hide carousel scrollbar */
+.scrollbar-none { scrollbar-width: none; -ms-overflow-style: none; }
+.scrollbar-none::-webkit-scrollbar { display: none; }
+</style>
+<!-- Hero Slider -->
+<section class="relative overflow-hidden bg-slate-900">
+    <div class="hero-slider-container relative">
+        <!-- Slides -->
+        <div class="hero-slider relative">
+                        <div class="hero-slide active" data-slide="0">
+                                <a href="https://dukpion.com.bd/category/nav-eyeglasses-mens" class="block">
+                    <!-- Desktop Image -->
+                    <img src="/uploads/hero-slides/desktop_1774857375_69ca2c9f2fefc.jpg" 
+                         alt="Eyeglasses" 
+                         class="hidden md:block w-full h-auto object-cover max-h-[600px]">
+                    <!-- Mobile Image -->
+                    <img src="/uploads/hero-slides/mobile_1774857375_69ca2c9f2ff9b.jpg" 
+                         alt="Eyeglasses" 
+                         class="block md:hidden w-full h-auto object-cover max-h-[400px]">
+                </a>
+                            </div>
+                        <div class="hero-slide " data-slide="1">
+                                <a href="https://dukpion.com.bd/category/50-off" class="block">
+                    <!-- Desktop Image -->
+                    <img src="/uploads/hero-slides/desktop_1778935168_6a08658015f03.jpg" 
+                         alt="50%" 
+                         class="hidden md:block w-full h-auto object-cover max-h-[600px]">
+                    <!-- Mobile Image -->
+                    <img src="/uploads/hero-slides/mobile_1778935168_6a0865801602d.jpg" 
+                         alt="50%" 
+                         class="block md:hidden w-full h-auto object-cover max-h-[400px]">
+                </a>
+                            </div>
+                    </div>
+        
+        <!-- Navigation Arrows -->
+                <button type="button" class="hero-prev absolute left-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/90 text-brand-black shadow-lg flex items-center justify-center hover:bg-white transition">
+            <i data-lucide="chevron-left" class="w-5 h-5 md:w-6 md:h-6"></i>
+        </button>
+        <button type="button" class="hero-next absolute right-4 top-1/2 -translate-y-1/2 z-10 w-10 h-10 md:w-12 md:h-12 rounded-full bg-white/90 text-brand-black shadow-lg flex items-center justify-center hover:bg-white transition">
+            <i data-lucide="chevron-right" class="w-5 h-5 md:w-6 md:h-6"></i>
+        </button>
+        
+        <!-- Dots Indicator -->
+        <div class="absolute bottom-4 left-1/2 -translate-x-1/2 z-10 flex gap-2">
+                        <button type="button" class="hero-dot w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition bg-white" data-slide="0"></button>
+                        <button type="button" class="hero-dot w-2 h-2 md:w-2.5 md:h-2.5 rounded-full transition bg-white/40 hover:bg-white/60" data-slide="1"></button>
+                    </div>
+            </div>
+</section>
+
+<style>
+.hero-slider {
+    position: relative;
+    width: 100%;
+}
+.hero-slide {
+    display: none;
+    width: 100%;
+}
+.hero-slide.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+</style>
+
+
+
+<!-- Choose from Category: image + label grid (like reference) -->
+<section class="py-4 md:py-6 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="mb-3"><span class="inline-flex items-center rounded-md bg-brand-black px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">Choose from Category</span></h2>
+        <!-- Mobile: Carousel showing 3 items, Desktop: Grid showing all 5 -->
+        <div class="lg:grid lg:grid-cols-5 lg:gap-4 hidden">
+                        <a href="/category/eyeglasses" class="group flex flex-col items-center py-2 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                <span class="flex items-center justify-center w-full aspect-square max-w-[90px] rounded-lg overflow-hidden bg-slate-50/50 mb-1.5">
+                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Eyeglass-1.jpg" alt="EYEGLASSES" class="w-full h-full object-contain" loading="lazy">
+                </span>
+                <span class="text-xs font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors">EYEGLASSES</span>
+            </a>
+                        <a href="/category/sunglasses" class="group flex flex-col items-center py-2 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                <span class="flex items-center justify-center w-full aspect-square max-w-[90px] rounded-lg overflow-hidden bg-slate-50/50 mb-1.5">
+                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Sunglass-3.jpg" alt="SUNGLASSES" class="w-full h-full object-contain" loading="lazy">
+                </span>
+                <span class="text-xs font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors">SUNGLASSES</span>
+            </a>
+                        <a href="/category/photochromic" class="group flex flex-col items-center py-2 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                <span class="flex items-center justify-center w-full aspect-square max-w-[90px] rounded-lg overflow-hidden bg-slate-50/50 mb-1.5">
+                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Photochromic.jpg" alt="PHOTOCHROMIC" class="w-full h-full object-contain" loading="lazy">
+                </span>
+                <span class="text-xs font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors">PHOTOCHROMIC</span>
+            </a>
+                        <a href="/category/free-frame" class="group flex flex-col items-center py-2 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                <span class="flex items-center justify-center w-full aspect-square max-w-[90px] rounded-lg overflow-hidden bg-slate-50/50 mb-1.5">
+                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Free-Frame-2.jpg" alt="FREE FRAME" class="w-full h-full object-contain" loading="lazy">
+                </span>
+                <span class="text-xs font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors">FREE FRAME</span>
+            </a>
+                        <a href="/category/50-off" class="group flex flex-col items-center py-2 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                <span class="flex items-center justify-center w-full aspect-square max-w-[90px] rounded-lg overflow-hidden bg-slate-50/50 mb-1.5">
+                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/50-OFF-1-1.jpg" alt="50% OFF" class="w-full h-full object-contain" loading="lazy">
+                </span>
+                <span class="text-xs font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors">50% OFF</span>
+            </a>
+                    </div>
+        <!-- Mobile Carousel with Arrows -->
+        <div class="lg:hidden relative">
+            <button type="button" id="category-prev" class="absolute left-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-white shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition" aria-label="Previous">
+                <i data-lucide="chevron-left" class="w-4 h-4"></i>
+            </button>
+            <button type="button" id="category-next" class="absolute right-0 top-1/2 -translate-y-1/2 z-10 w-8 h-8 flex items-center justify-center rounded-full bg-white shadow-md border border-slate-200 text-slate-700 hover:bg-slate-50 transition" aria-label="Next">
+                <i data-lucide="chevron-right" class="w-4 h-4"></i>
+            </button>
+            <div id="category-carousel" class="flex gap-2 overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-none px-8">
+                                <a href="/category/eyeglasses" class="group flex flex-col items-center flex-none w-[calc(33.333%-5px)] snap-start py-1.5 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                    <span class="flex items-center justify-center w-full aspect-square max-w-[65px] rounded-lg overflow-hidden bg-slate-50/50 mb-1">
+                        <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Eyeglass-1.jpg" alt="EYEGLASSES" class="w-full h-full object-contain" loading="lazy">
+                    </span>
+                    <span class="text-[9px] font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors leading-tight">EYEGLASSES</span>
+                </a>
+                                <a href="/category/sunglasses" class="group flex flex-col items-center flex-none w-[calc(33.333%-5px)] snap-start py-1.5 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                    <span class="flex items-center justify-center w-full aspect-square max-w-[65px] rounded-lg overflow-hidden bg-slate-50/50 mb-1">
+                        <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Sunglass-3.jpg" alt="SUNGLASSES" class="w-full h-full object-contain" loading="lazy">
+                    </span>
+                    <span class="text-[9px] font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors leading-tight">SUNGLASSES</span>
+                </a>
+                                <a href="/category/photochromic" class="group flex flex-col items-center flex-none w-[calc(33.333%-5px)] snap-start py-1.5 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                    <span class="flex items-center justify-center w-full aspect-square max-w-[65px] rounded-lg overflow-hidden bg-slate-50/50 mb-1">
+                        <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Photochromic.jpg" alt="PHOTOCHROMIC" class="w-full h-full object-contain" loading="lazy">
+                    </span>
+                    <span class="text-[9px] font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors leading-tight">PHOTOCHROMIC</span>
+                </a>
+                                <a href="/category/free-frame" class="group flex flex-col items-center flex-none w-[calc(33.333%-5px)] snap-start py-1.5 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                    <span class="flex items-center justify-center w-full aspect-square max-w-[65px] rounded-lg overflow-hidden bg-slate-50/50 mb-1">
+                        <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/Free-Frame-2.jpg" alt="FREE FRAME" class="w-full h-full object-contain" loading="lazy">
+                    </span>
+                    <span class="text-[9px] font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors leading-tight">FREE FRAME</span>
+                </a>
+                                <a href="/category/50-off" class="group flex flex-col items-center flex-none w-[calc(33.333%-5px)] snap-start py-1.5 px-1 rounded-lg hover:bg-slate-50/80 transition-colors duration-200">
+                    <span class="flex items-center justify-center w-full aspect-square max-w-[65px] rounded-lg overflow-hidden bg-slate-50/50 mb-1">
+                        <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/50-OFF-1-1.jpg" alt="50% OFF" class="w-full h-full object-contain" loading="lazy">
+                    </span>
+                    <span class="text-[9px] font-semibold text-brand-black text-center uppercase tracking-wide group-hover:text-brand-blue transition-colors leading-tight">50% OFF</span>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Weekly Deals: carousel, 5 visible on desktop, up to 10 items -->
+<section class="py-8 md:py-10 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="mb-6"><span class="section-badge inline-flex items-center gap-2 rounded-md bg-orange-500 px-4 py-2 text-sm font-bold uppercase tracking-wide text-white"><span>Weekly Deals</span><span aria-hidden="true">🔥</span></span></h2>
+        <div class="relative -mx-4 sm:-mx-6 lg:mx-0 group/carousel">
+            <button type="button" class="carousel-prev absolute -left-4 top-1/2 lg:-left-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Previous" data-carousel="carousel-weekly">
+                <i data-lucide="chevron-left" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <button type="button" class="carousel-next absolute -right-4 top-1/2 lg:-right-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Next" data-carousel="carousel-weekly">
+                <i data-lucide="chevron-right" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <div id="carousel-weekly" class="carousel-scroll flex gap-4 overflow-x-auto overflow-y-hidden px-4 sm:px-6 lg:px-16 pb-2 snap-x snap-mandatory scroll-smooth scrollbar-none">
+                                <a href="/product/round-shape-premium-eyeglass-6" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKE012458-50-19-144-2599TK-1.jpg" alt="Round Shape Premium Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Round Shape Premium Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,300</span>
+                            <span class="text-sm text-slate-400 line-through">৳2,599</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/light-weight-black-color-eyeglass-4" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/01/DKEL000313-53-17-138-1350TK-2.jpg" alt="Light Weight Black Color Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight Black Color Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳675</span>
+                            <span class="text-sm text-slate-400 line-through">৳1,350</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/light-weight-black-color-eyeglass-3" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/01/DKE03328-52-18-152-2000tk.jpg" alt="Light Weight Black Color Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight Black Color Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,000</span>
+                            <span class="text-sm text-slate-400 line-through">৳2,000</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/oval-shape-premium-quality-eyeglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/02/DKE02588-50-17-145-3299TK-1.jpg" alt="Oval Shape Premium Quality Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Oval Shape Premium Quality Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,650</span>
+                            <span class="text-sm text-slate-400 line-through">৳3,299</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/cat-eye-mixed-color-womens-eyeglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKECS0983-52-16-138-2699TK-1.jpg" alt="Cat Eye Mixed Color Women’s Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Cat Eye Mixed Color Women’s Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,350</span>
+                            <span class="text-sm text-slate-400 line-through">৳2,699</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/premium-quality-woman-sunglasses-3" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/02/DKS02458-53-18-142-2299TK-2.jpg" alt="Premium Quality Woman Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Premium Quality Woman Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,150</span>
+                            <span class="text-sm text-slate-400 line-through">৳2,299</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/light-weight-premium-eyeglass-8" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/01/DKE04242-50-20-141.jpg" alt="Light Weight Premium Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight Premium Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳500</span>
+                            <span class="text-sm text-slate-400 line-through">৳1,000</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/blue-transparent-color-eyeglass-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/07/DKE06744-53-20-145-2599TK-1.jpg" alt="Blue Transparent Color Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Blue Transparent Color Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,300</span>
+                            <span class="text-sm text-slate-400 line-through">৳2,599</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/light-weight-premium-quality-sunglasses-26" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/4150510718f65ca5.jpg" alt="Light Weight Premium Quality Sunglasses 26" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight Premium Quality Sunglasses 26</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳2,250</span>
+                            <span class="text-sm text-slate-400 line-through">৳4,500</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/rimless-light-weight-mens-eyeglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKEC0040-54-17-145-3499TK-5-1.jpg" alt="Rimless Light Weight Men&#039;s Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                        <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">50% OFF</span>
+                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Rimless Light Weight Men&#039;s Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                            <span class="text-lg font-bold text-brand-blue">৳1,750</span>
+                            <span class="text-sm text-slate-400 line-through">৳3,499</span>
+                                                    </div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- New Arrivals: carousel, 5 visible on desktop, up to 10 items -->
+<section class="py-8 md:py-10 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="mb-6"><span class="section-badge inline-flex items-center rounded-md bg-brand-blue px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">New Arrivals</span></h2>
+        <div class="relative -mx-4 sm:-mx-6 lg:mx-0 group/carousel">
+            <button type="button" class="carousel-prev absolute -left-4 top-1/2 lg:-left-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Previous" data-carousel="carousel-newarrivals">
+                <i data-lucide="chevron-left" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <button type="button" class="carousel-next absolute -right-4 top-1/2 lg:-right-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Next" data-carousel="carousel-newarrivals">
+                <i data-lucide="chevron-right" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <div id="carousel-newarrivals" class="carousel-scroll flex gap-4 overflow-x-auto overflow-y-hidden px-4 sm:px-6 lg:px-16 pb-2 snap-x snap-mandatory scroll-smooth scrollbar-none">
+                                <a href="/product/light-weight-and-black-color-eyewear" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/d396cffe82a0cbe2.jpg" alt="Light Weight and Black Color Eyewear" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight and Black Color Eyewear</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳3,100</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/fiber-and-metal-mixed-comfortable-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/5ba764fd1acf4e68.jpg" alt="Fiber and Metal Mixed Comfortable Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Fiber and Metal Mixed Comfortable Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳3,100</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/mixed-transparent-color-cat-eye-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/292151b0251824d2.jpg" alt="Mixed Transparent Color Cat Eye Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Mixed Transparent Color Cat Eye Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,600</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/cate-eye-shape-premium-eyewear" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/32f04c1bddd6c447.jpg" alt="Cate Eye Shape Premium Eyewear" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Cate Eye Shape Premium Eyewear</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,600</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/glossy-black-color-fiber-and-metal" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/78fe75a0af709086.jpg" alt="Glossy Black Color Fiber and Metal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Glossy Black Color Fiber and Metal</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳3,200</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/pink-transparent-color-ladies-eyewear" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/8b6927cce342f457.jpg" alt="Pink Transparent Color ladies Eyewear" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Pink Transparent Color ladies Eyewear</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,400</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/blue-color-and-fiber-built-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/4a250fc171ea5785.jpg" alt="Blue Color and Fiber Built Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Blue Color and Fiber Built Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,800</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/premium-quality-and-comfortable-eyewear" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/d2d53002ac1ca11d.jpg" alt="Premium Quality and Comfortable Eyewear" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Premium Quality and Comfortable Eyewear</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,800</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/light-weight-and-dukpion-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/a87c2d5d5777787d.jpg" alt="Light Weight and Dukpion Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Light Weight and Dukpion Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,800</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/fiber-and-metal-mixed-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/feedbbe38e2d9fec.jpg" alt="Fiber and Metal Mixed Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Fiber and Metal Mixed Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,800</span>
+                                                    </div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner: left = Eyeglass + Sunglass stacked, right = Photochromic full height -->
+<section class="py-4 md:py-6 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_0.5fr] lg:grid-rows-2 gap-1.5 sm:gap-2 lg:gap-2 lg:items-stretch">
+            <a href="/category/eyeglasses" class="group relative block overflow-hidden rounded-xl bg-slate-200 shadow-md hover:shadow-xl transition-all duration-300 aspect-[4/3] lg:aspect-auto lg:min-h-[280px]">
+                <img src="https://dukpion.com.bd/wp-content/uploads/2025/02/Eyeglasses-1.jpg" alt="Eyeglass collections" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            </a>
+            <a href="/category/sunglasses" class="group relative block overflow-hidden rounded-xl bg-slate-200 shadow-md hover:shadow-xl transition-all duration-300 aspect-[4/3] lg:aspect-auto lg:min-h-[280px]">
+                <img src="https://dukpion.com.bd/wp-content/uploads/2025/02/Sunglassestt.jpg" alt="Sunglass collections" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+            </a>
+            <a href="/category/photochromic" class="group relative block overflow-hidden rounded-xl bg-slate-200 shadow-md hover:shadow-xl transition-all duration-300 aspect-[4/3] sm:aspect-[2/1] lg:row-span-2 lg:col-start-2 lg:row-start-1 lg:aspect-auto lg:h-full lg:min-h-0">
+                <img src="https://dukpion.com.bd/wp-content/uploads/2025/02/Photochromic-Tiny.jpg" alt="Photochromic" class="absolute inset-0 w-full h-full object-contain scale-125 group-hover:scale-[1.3] transition-transform duration-300" loading="lazy">
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Eyeglasses: carousel like New Arrivals -->
+<section class="py-4 md:py-6 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between mb-4">
+            <h2><span class="section-badge inline-flex items-center rounded-md bg-brand-black px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">Eyeglasses</span></h2>
+            <a href="/category/eyeglasses" class="text-sm font-semibold text-brand-blue hover:underline">View all →</a>
+        </div>
+        <div class="relative -mx-4 sm:-mx-6 lg:mx-0 group/carousel">
+            <button type="button" class="carousel-prev absolute -left-4 top-1/2 lg:-left-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Previous" data-carousel="carousel-eyeglasses">
+                <i data-lucide="chevron-left" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <button type="button" class="carousel-next absolute -right-4 top-1/2 lg:-right-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Next" data-carousel="carousel-eyeglasses">
+                <i data-lucide="chevron-right" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <div id="carousel-eyeglasses" class="carousel-scroll flex gap-4 overflow-x-auto overflow-y-hidden px-4 sm:px-6 lg:px-16 pb-2 snap-x snap-mandatory scroll-smooth scrollbar-none">
+                                <a href="/product/purple-transparent-color-eye-ware" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/b4eeea2073d0d06c.jpg" alt="Purple Transparent Color Eye ware" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Purple Transparent Color Eye ware</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,599</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/glossy-black-color-fiber-and-metal" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/78fe75a0af709086.jpg" alt="Glossy Black Color Fiber and Metal" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Glossy Black Color Fiber and Metal</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳3,200</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/olive-transparent-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/06/DKE06592-46-22-145-1799TK-1.jpg" alt="Olive Transparent Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Olive Transparent Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,799</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/red-color-round-shape-kids-eyeglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKE012261-45-16-128-1099TK-1.jpg" alt="Red color Round Shape Kid&#039;s Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Red color Round Shape Kid&#039;s Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,099</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/transparent-color-womens-eyeglass-3" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/fa020d9658ef33d4.jpg" alt="Transparent Color Women&#039;s Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Transparent Color Women&#039;s Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,300</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/gray-transparent-color-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/01/DKE012299-51-20-145-2599TK-2.jpg" alt="Gray Transparent Color Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Gray Transparent Color Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,599</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/green-transparent-kids-eyeglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/12/DKE011984-45-17-130-2099TK-1.jpg" alt="Green Transparent Kid&#039;s Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Green Transparent Kid&#039;s Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,099</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/red-transparent-color-eyewear" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/c4fd6f3375ca818e.jpg" alt="Red Transparent Color Eyewear" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Red Transparent Color Eyewear</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,299</span>
+                                                    </div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sunglasses: carousel like New Arrivals -->
+<section class="py-4 md:py-6 bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between mb-4">
+            <h2><span class="section-badge inline-flex items-center rounded-md bg-brand-blue px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">Sunglasses</span></h2>
+            <a href="/category/sunglasses" class="text-sm font-semibold text-brand-blue hover:underline">View all →</a>
+        </div>
+        <div class="relative -mx-4 sm:-mx-6 lg:mx-0 group/carousel">
+            <button type="button" class="carousel-prev absolute -left-4 top-1/2 lg:-left-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Previous" data-carousel="carousel-sunglasses">
+                <i data-lucide="chevron-left" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <button type="button" class="carousel-next absolute -right-4 top-1/2 lg:-right-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Next" data-carousel="carousel-sunglasses">
+                <i data-lucide="chevron-right" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <div id="carousel-sunglasses" class="carousel-scroll flex gap-4 overflow-x-auto overflow-y-hidden px-4 sm:px-6 lg:px-16 pb-2 snap-x snap-mandatory scroll-smooth scrollbar-none">
+                                <a href="/product/round-shape-blue-frame-kids-sunglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKS012214-47-16-135-1199TK-2.jpg" alt="Round Shape Blue Frame Kid&#039;s Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Round Shape Blue Frame Kid&#039;s Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,199</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/400uv-protective-baby-sunglasses-5" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKSCS00637-49-15-123-999TK-1.jpg" alt="400UV Protective Baby Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">400UV Protective Baby Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/premium-quality-ladies-sunglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/a4baa6bd4da9dadc.jpg" alt="Premium Quality Ladies Sunglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Premium Quality Ladies Sunglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,299</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/gradient-color-stylish-sunglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="/uploads/products/7ac58dc975c0200d.jpg" alt="Gradient Color Stylish Sunglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                            <span class="absolute top-2 right-2 px-2 py-1 bg-red-500 text-white text-xs font-bold rounded">29% OFF</span>
+                                                                    </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Gradient Color Stylish Sunglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-blue">৳2,499</span>
+                                <span class="text-sm text-slate-400 line-through">৳3,500</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/pink-blue-mixed-kids-sunglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKS012220-48-17-132-1399TK-1.jpg" alt="Pink &amp; Blue Mixed Kids Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Pink &amp; Blue Mixed Kids Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,399</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/tiger-print-gorgeous-design-sunglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKS012125-52-42-20-145-8999TK-1.jpg" alt="Tiger Print Gorgeous Design Sunglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Tiger Print Gorgeous Design Sunglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳8,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/new-arrived-stylish-sunglass" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2026/02/DKS012323-50-18-140-1199TK-1.jpg" alt="New Arrived Stylish Sunglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">New Arrived Stylish Sunglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳1,199</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/mixed-color-fashionable-sunglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/12/DKS011898-54-17-145-2999TK-1.jpg" alt="Mixed Color Fashionable Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Mixed Color Fashionable Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳2,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Designer Eyewear: carousel like New Arrivals -->
+<section class="py-4 md:py-6 bg-slate-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between mb-4">
+            <h2><span class="section-badge inline-flex items-center rounded-md bg-slate-700 px-4 py-2 text-sm font-bold uppercase tracking-wide text-white">Designer Eyewear</span></h2>
+            <a href="/category/designer-eyewear" class="text-sm font-semibold text-brand-blue hover:underline">View all →</a>
+        </div>
+        <div class="relative -mx-4 sm:-mx-6 lg:mx-0 group/carousel">
+            <button type="button" class="carousel-prev absolute -left-4 top-1/2 lg:-left-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Previous" data-carousel="carousel-designer">
+                <i data-lucide="chevron-left" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <button type="button" class="carousel-next absolute -right-4 top-1/2 lg:-right-5 z-10 flex h-[min(100%,180px)] min-h-[120px] w-10 -translate-y-1/2 items-center justify-center rounded-lg border-0 bg-slate-100/90 text-brand-black shadow-md transition hover:bg-slate-200 focus:outline-none focus:ring-2 focus:ring-brand-blue lg:w-12" aria-label="Next" data-carousel="carousel-designer">
+                <i data-lucide="chevron-right" class="h-6 w-6 lg:h-7 lg:w-7"></i>
+            </button>
+            <div id="carousel-designer" class="carousel-scroll flex gap-4 overflow-x-auto overflow-y-hidden px-4 sm:px-6 lg:px-16 pb-2 snap-x snap-mandatory scroll-smooth scrollbar-none">
+                                <a href="/product/brown-transparent-color-sunglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/07/DKS06627-54-20-150-16999TK-1.jpg" alt="Brown Transparent Color Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Brown Transparent Color Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳16,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/double-bridge-premium-quality-sunglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKSCS01015-59-16-142-11999TK-1.jpg" alt="Double Bridge Premium Quality Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Double Bridge Premium Quality Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳11,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/new-arrived-premium-quality-sunglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKSCS01047-52-21-150-11949TK-1.jpg" alt="New Arrived Premium Quality Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">New Arrived Premium Quality Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳11,949</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/fashionable-black-color-eyeglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/05/DKE06130-54-18-150-5999TK-1-1.jpg" alt="Fashionable Black Color Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Fashionable Black Color Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳5,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/latest-rimless-frames-sleek-high-quality" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKECS01007-58-18-140-6999TK-2.jpg" alt="Latest Rimless Frames: Sleek &amp;amp; High-Quality" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Latest Rimless Frames: Sleek &amp;amp; High-Quality</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳6,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/excellent-quality-mens-sunglasses-2" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKSCS00218-51-17-145-4999TK-9.jpg" alt="Excellent Quality Men&#039;s Sunglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Excellent Quality Men&#039;s Sunglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳4,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/new-fashionable-oval-eyeglasses" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2024/11/DKECS0070-9949TK-10.jpg" alt="New Fashionable Oval Eyeglasses" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">New Fashionable Oval Eyeglasses</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳9,949</span>
+                                                    </div>
+                    </div>
+                </a>
+                                <a href="/product/green-transparent-color-eyeglass-3" class="carousel-item group flex-none w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] lg:w-[calc(20%-13px)] snap-start bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all border border-slate-200 hover:border-brand-blue">
+                    <div class="aspect-square bg-slate-100 overflow-hidden relative">
+                                                    <img src="https://dukpion.com.bd/wp-content/uploads/2025/06/DKE06399-52-17-146-10999TK-3.jpg" alt="Green Transparent Color Eyeglass" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                                                                                            </div>
+                    <div class="p-3 md:p-4">
+                        <h3 class="font-semibold text-brand-black text-sm md:text-base mb-2 line-clamp-2 group-hover:text-brand-blue transition-colors">Green Transparent Color Eyeglass</h3>
+                        <div class="flex items-baseline gap-2 flex-wrap">
+                                                            <span class="text-lg font-bold text-brand-black">৳10,999</span>
+                                                    </div>
+                    </div>
+                </a>
+                            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+(function() {
+    function initCarousels() {
+        document.querySelectorAll('.carousel-prev, .carousel-next').forEach(function(btn) {
+            if (btn._carouselInit) return;
+            btn._carouselInit = true;
+            var id = btn.getAttribute('data-carousel');
+            var el = id ? document.getElementById(id) : null;
+            if (!el) return;
+            var step = function(dir) {
+                var card = el.querySelector('.carousel-item');
+                var gap = 16;
+                var stepWidth = card ? card.offsetWidth + gap : el.clientWidth;
+                el.scrollBy({ left: dir * stepWidth, behavior: 'smooth' });
+            };
+            btn.addEventListener('click', function() { step(btn.classList.contains('carousel-prev') ? -1 : 1); });
+        });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCarousels);
+    else initCarousels();
+    
+    // Category carousel arrows
+    var categoryCarousel = document.getElementById('category-carousel');
+    var categoryPrev = document.getElementById('category-prev');
+    var categoryNext = document.getElementById('category-next');
+    
+    if (categoryCarousel && categoryPrev && categoryNext) {
+        categoryPrev.addEventListener('click', function() {
+            var scrollAmount = categoryCarousel.offsetWidth;
+            categoryCarousel.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+        });
+        
+        categoryNext.addEventListener('click', function() {
+            var scrollAmount = categoryCarousel.offsetWidth;
+            categoryCarousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        });
+    }
+    
+    // Hero Slider
+    var heroSlides = document.querySelectorAll('.hero-slide');
+    var heroDots = document.querySelectorAll('.hero-dot');
+    var heroPrev = document.querySelector('.hero-prev');
+    var heroNext = document.querySelector('.hero-next');
+    var currentSlide = 0;
+    var autoSlideInterval;
+    
+    function showSlide(index) {
+        if (heroSlides.length === 0) return;
+        
+        // Wrap around
+        if (index >= heroSlides.length) index = 0;
+        if (index < 0) index = heroSlides.length - 1;
+        
+        // Update slides
+        heroSlides.forEach(function(slide, i) {
+            if (i === index) {
+                slide.classList.add('active');
+            } else {
+                slide.classList.remove('active');
+            }
+        });
+        
+        // Update dots
+        heroDots.forEach(function(dot, i) {
+            if (i === index) {
+                dot.classList.remove('bg-white/40', 'hover:bg-white/60');
+                dot.classList.add('bg-white');
+            } else {
+                dot.classList.remove('bg-white');
+                dot.classList.add('bg-white/40', 'hover:bg-white/60');
+            }
+        });
+        
+        currentSlide = index;
+    }
+    
+    function nextSlide() {
+        showSlide(currentSlide + 1);
+    }
+    
+    function prevSlide() {
+        showSlide(currentSlide - 1);
+    }
+    
+    // Navigation
+    if (heroNext) heroNext.addEventListener('click', nextSlide);
+    if (heroPrev) heroPrev.addEventListener('click', prevSlide);
+    
+    // Dots
+    heroDots.forEach(function(dot, index) {
+        dot.addEventListener('click', function() {
+            showSlide(index);
+            resetAutoSlide();
+        });
+    });
+    
+    // Auto slide every 5 seconds
+    function startAutoSlide() {
+        if (heroSlides.length > 1) {
+            autoSlideInterval = setInterval(nextSlide, 5000);
+        }
+    }
+    
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        startAutoSlide();
+    }
+    
+    startAutoSlide();
+    
+    // Pause on hover
+    var heroContainer = document.querySelector('.hero-slider-container');
+    if (heroContainer) {
+        heroContainer.addEventListener('mouseenter', function() {
+            clearInterval(autoSlideInterval);
+        });
+        heroContainer.addEventListener('mouseleave', function() {
+            startAutoSlide();
+        });
+    }
+})();
+</script>
+</main>
+<footer class="bg-brand-black text-white mt-20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-12">
+            <div class="md:col-span-2">
+                                <a href="https://dukpion.com.bd/" class="inline-block mb-4">
+                    <img src="https://dukpion.com.bd/image.png" alt="dukpion" class="h-10 w-auto object-contain brightness-0 invert opacity-90">
+                </a>
+                <p class="text-slate-300 text-sm max-w-md">Largest online eye care shop. Premium sunglasses in Black & Blue. Style and protection for every look.</p>
+            </div>
+            <div>
+                <h3 class="font-semibold text-white mb-4">Shop</h3>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/sunglasses" class="hover:text-brand-blue transition">Sunglasses</a></li>
+                    <li><a href="/collections" class="hover:text-brand-blue transition">Collections</a></li>
+                    <li><a href="/collections?filter=black" class="hover:text-brand-blue transition">Black</a></li>
+                    <li><a href="/collections?filter=blue" class="hover:text-brand-blue transition">Blue</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="font-semibold text-white mb-4">Support</h3>
+                <ul class="space-y-2 text-sm text-slate-300">
+                    <li><a href="/contact" class="hover:text-brand-blue transition">Contact</a></li>
+                    <li><a href="/about" class="hover:text-brand-blue transition">About Us</a></li>
+                    <li><a href="/faq" class="hover:text-brand-blue transition">FAQ</a></li>
+                    <li><a href="/terms" class="hover:text-brand-blue transition">Terms &amp; Conditions</a></li>
+                    <li><a href="/return-policy" class="hover:text-brand-blue transition">Return Policy</a></li>
+                    <li><a href="/privacy-policy" class="hover:text-brand-blue transition">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-12 pt-8 border-t border-slate-700 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p class="text-slate-400 text-sm">&copy; 2026 dukpion. All rights reserved.</p>
+            <div class="flex items-center gap-6">
+                <a href="https://www.facebook.com/dukpion" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-brand-blue transition" aria-label="Facebook"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+                <a href="#" class="text-slate-400 hover:text-brand-blue transition" aria-label="Instagram"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+                <a href="#" class="text-slate-400 hover:text-brand-blue transition" aria-label="Twitter"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script>if (typeof lucide !== 'undefined') lucide.createIcons();</script>
+<script>
+(function() {
+    var backdrop = document.getElementById('mobile-menu-backdrop');
+    var drawer = document.getElementById('mobile-menu-drawer');
+    var cardsWrap = document.getElementById('mobile-menu-cards');
+    var backBtn = document.getElementById('mobile-menu-back');
+    var titleEl = document.getElementById('mobile-menu-title');
+    var closeBtn = document.getElementById('mobile-menu-close');
+
+    function openMenu() {
+        if (!drawer || window.innerWidth >= 768) return;
+        if (backdrop) { backdrop.classList.add('is-open'); backdrop.setAttribute('aria-hidden', 'false'); }
+        if (drawer) { drawer.classList.add('is-open'); drawer.setAttribute('aria-hidden', 'false'); }
+        goToCard('mobile-card-main');
+        document.body.style.overflow = 'hidden';
+    }
+    function closeMenu() {
+        if (backdrop) { backdrop.classList.remove('is-open'); backdrop.setAttribute('aria-hidden', 'true'); }
+        if (drawer) { drawer.classList.remove('is-open'); drawer.setAttribute('aria-hidden', 'true'); }
+        document.body.style.overflow = '';
+    }
+    function goToCard(cardId) {
+        var card = document.getElementById(cardId);
+        if (!card || !cardsWrap) return;
+        var cards = cardsWrap.querySelectorAll('.mobile-menu-card');
+        var index = 0;
+        for (var i = 0; i < cards.length; i++) {
+            if (cards[i].id === cardId) { index = i; break; }
+        }
+        var offset = -index * 100;
+        cardsWrap.style.transform = 'translateX(' + offset + '%)';
+        var back = card.getAttribute('data-back');
+        if (backBtn) backBtn.classList.toggle('hidden', !back);
+        if (backBtn) backBtn.setAttribute('data-back', back || '');
+        var title = card.getAttribute('data-title');
+        if (titleEl) titleEl.textContent = title || 'Menu';
+    }
+    function handleBack(e) {
+        var target = e.currentTarget.getAttribute('data-back');
+        if (target) goToCard(target);
+    }
+
+    document.getElementById('top-menu-toggle')?.addEventListener('click', function() {
+        if (window.innerWidth >= 768) return;
+        openMenu();
+    });
+    document.getElementById('menu-toggle')?.addEventListener('click', function() {
+        if (window.innerWidth >= 768) return;
+        openMenu();
+    });
+    closeBtn?.addEventListener('click', closeMenu);
+    backBtn?.addEventListener('click', handleBack);
+    backdrop?.addEventListener('click', closeMenu);
+
+    drawer?.addEventListener('click', function(e) {
+        var openBtn = e.target.closest('[data-open]');
+        if (openBtn) {
+            e.preventDefault();
+            var id = openBtn.getAttribute('data-open');
+            if (id) goToCard(id);
+            return;
+        }
+        if (e.target.closest('a[href]')) closeMenu();
+    });
+
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && drawer && drawer.classList.contains('is-open')) {
+            var back = backBtn?.getAttribute('data-back');
+            if (back) goToCard(back);
+            else closeMenu();
+        }
+    });
+})();
+</script>
+
+
+</body>
+</html>

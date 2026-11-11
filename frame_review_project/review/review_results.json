@@ -1,0 +1,1430 @@
+[
+ {
+  "product_id": "5",
+  "sku": "DKS012473",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "23",
+  "sku": "DKS07053",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "24",
+  "sku": "DKS07069",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "31",
+  "sku": "DKS07018",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "49",
+  "sku": "DKS011887",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "181",
+  "sku": "DKS012228",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "182",
+  "sku": "DKS012230",
+  "verified_shape": "square",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "183",
+  "sku": "DKS012231",
+  "verified_shape": "square",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "184",
+  "sku": "DKS012226",
+  "verified_shape": "square",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "189",
+  "sku": "DKS012218",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "190",
+  "sku": "DKS012219",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "191",
+  "sku": "DKS012220",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "193",
+  "sku": "DKS012217",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "194",
+  "sku": "DKS012213",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "196",
+  "sku": "DKS012215",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "197",
+  "sku": "DKS012212",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "303",
+  "sku": "DKS012329",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "306",
+  "sku": "DKS012323",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "307",
+  "sku": "DKS012322",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "594",
+  "sku": "DKS011948",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "598",
+  "sku": "DKS011940",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "599",
+  "sku": "DKS011939",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "603",
+  "sku": "DKS011934",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "624",
+  "sku": "DKS011931",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "634",
+  "sku": "DKS011921",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "641",
+  "sku": "DKS011905",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "649",
+  "sku": "DKSCS00608",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "689",
+  "sku": "DKS011880",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "690",
+  "sku": "DKS011879",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "711",
+  "sku": "DKS011852",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "760",
+  "sku": "DKS02252",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "764",
+  "sku": "DKSCS01049",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "766",
+  "sku": "DKS02455",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "824",
+  "sku": "DKS06859",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "832",
+  "sku": "DKS06606",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "855",
+  "sku": "DKS06442",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "857",
+  "sku": "DKS06439",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "858",
+  "sku": "DKS06435",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "859",
+  "sku": "DKS06434",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "860",
+  "sku": "DKS06433",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "868",
+  "sku": "DKS06631",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "870",
+  "sku": "DKS06629",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "871",
+  "sku": "DKS06628",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "872",
+  "sku": "DKS06627",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "875",
+  "sku": "DKS06622",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "877",
+  "sku": "DKS06620",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "879",
+  "sku": "DKS06618",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "903",
+  "sku": "DKS06615",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "911",
+  "sku": "DKS06608",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "913",
+  "sku": "DKS06607",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "915",
+  "sku": "DKS06604",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "946",
+  "sku": "DKS06640",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1032",
+  "sku": "DKS06494",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 1979,
+  "reviewed": true
+ },
+ {
+  "product_id": "1034",
+  "sku": "DKS06444",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1267",
+  "sku": "DKS02649",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1270",
+  "sku": "DKS02647",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1287",
+  "sku": "DKS02515",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1290",
+  "sku": "DKS02509",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 2556,
+  "reviewed": true
+ },
+ {
+  "product_id": "1334",
+  "sku": "DKS02429",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1341",
+  "sku": "DKS02492",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1354",
+  "sku": "DKS02265",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1357",
+  "sku": "DKS02259",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1366",
+  "sku": "DKS02246",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1422",
+  "sku": "DKS01729",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1495",
+  "sku": "DKSCR0730",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1536",
+  "sku": "DKSCS00501",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1549",
+  "sku": "DKSCS00132",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1551",
+  "sku": "DKSCR0746",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1573",
+  "sku": "DKSCS00570",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1579",
+  "sku": "DKSC01829",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 3367,
+  "reviewed": true
+ },
+ {
+  "product_id": "1582",
+  "sku": "DKSCS00624",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1583",
+  "sku": "DKSCS00620",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1584",
+  "sku": "DKSCS00637",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1588",
+  "sku": "DKSCS00629",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1595",
+  "sku": "DKSCS00671",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1601",
+  "sku": "DKSCS00659",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1606",
+  "sku": "DKSCS00641",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1607",
+  "sku": "DKSC01825",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1608",
+  "sku": "DKSCS00612",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1611",
+  "sku": "DKSC01821",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1613",
+  "sku": "DKSC01835",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 3444,
+  "reviewed": true
+ },
+ {
+  "product_id": "1626",
+  "sku": "DKSCS00663",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1628",
+  "sku": "DKSCS00578",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1632",
+  "sku": "DKSCS00594",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1633",
+  "sku": "DKSCS00592",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1642",
+  "sku": "DKSCS00638",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1646",
+  "sku": "DKSCS00584",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1658",
+  "sku": "DKSCS0936",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1659",
+  "sku": "DKSCS0950",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1662",
+  "sku": "DKSCS0946",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1667",
+  "sku": "DKSCS0951",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1670",
+  "sku": "DKSCS0944",
+  "verified_shape": "round",
+  "tryon_image_id": 3619,
+  "reviewed": true
+ },
+ {
+  "product_id": "1679",
+  "sku": "DKS01715",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1711",
+  "sku": "DKSCR0723",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1715",
+  "sku": "DKSCR0742",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1722",
+  "sku": "DKSCS0880",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1740",
+  "sku": "DKSCS0875",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1745",
+  "sku": "DKSCS00195",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1749",
+  "sku": "DKSCS0876",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1750",
+  "sku": "DKSCS0863",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1755",
+  "sku": "DKSCS01020",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1780",
+  "sku": "DKSCS01023",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1800",
+  "sku": "DKSCS01015",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1807",
+  "sku": "DKSCS00220",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 3967,
+  "reviewed": true
+ },
+ {
+  "product_id": "1814",
+  "sku": "DKSCS00216",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1819",
+  "sku": "DKSCS01061",
+  "verified_shape": "oval",
+  "tryon_image_id": 4005,
+  "reviewed": true
+ },
+ {
+  "product_id": "1822",
+  "sku": "DKSCS01047",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1825",
+  "sku": "DKSCS01031",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1826",
+  "sku": "DKSCS01039",
+  "verified_shape": "rectangle",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1835",
+  "sku": "DKSCS0938",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1837",
+  "sku": "DKSCS0932",
+  "verified_shape": "round",
+  "tryon_image_id": 4055,
+  "reviewed": true
+ },
+ {
+  "product_id": "1838",
+  "sku": "DKSCS01052",
+  "verified_shape": "round",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1998",
+  "sku": "DKS012489",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "1999",
+  "sku": "DKS012490",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "2008",
+  "sku": "DKS012498",
+  "verified_shape": "geometric",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "2035",
+  "sku": "DKS02270",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4146,
+  "reviewed": true
+ },
+ {
+  "product_id": "2036",
+  "sku": "DKS01716",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4150,
+  "reviewed": true
+ },
+ {
+  "product_id": "2058",
+  "sku": "DKSCR0748",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 4156,
+  "reviewed": true
+ },
+ {
+  "product_id": "2110",
+  "sku": "DKS04982",
+  "verified_shape": "oval",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "2272",
+  "sku": "DKS02448",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4338,
+  "reviewed": true
+ },
+ {
+  "product_id": "2273",
+  "sku": "DKS012500",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4342,
+  "reviewed": true
+ },
+ {
+  "product_id": "2304",
+  "sku": "DKS012676",
+  "verified_shape": "oval",
+  "tryon_image_id": 4347,
+  "reviewed": true
+ },
+ {
+  "product_id": "2305",
+  "sku": "DKS012675",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4352,
+  "reviewed": true
+ },
+ {
+  "product_id": "2306",
+  "sku": "DKS012674",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4357,
+  "reviewed": true
+ },
+ {
+  "product_id": "2316",
+  "sku": "DKS012664",
+  "verified_shape": "round",
+  "tryon_image_id": 4362,
+  "reviewed": true
+ },
+ {
+  "product_id": "2319",
+  "sku": "DKS012661",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4366,
+  "reviewed": true
+ },
+ {
+  "product_id": "2322",
+  "sku": "DKS012680",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4372,
+  "reviewed": true
+ },
+ {
+  "product_id": "2413",
+  "sku": "DKS012772",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4626,
+  "reviewed": true
+ },
+ {
+  "product_id": "2414",
+  "sku": "DKS012774",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 4630,
+  "reviewed": true
+ },
+ {
+  "product_id": "2447",
+  "sku": "DKS012796",
+  "verified_shape": "oval",
+  "tryon_image_id": 4730,
+  "reviewed": true
+ },
+ {
+  "product_id": "2448",
+  "sku": "DKS012798",
+  "verified_shape": "oval",
+  "tryon_image_id": 4734,
+  "reviewed": true
+ },
+ {
+  "product_id": "2451",
+  "sku": "DKS012802",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 4746,
+  "reviewed": true
+ },
+ {
+  "product_id": "2452",
+  "sku": "DKS012803",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4750,
+  "reviewed": true
+ },
+ {
+  "product_id": "2453",
+  "sku": "DKS012804",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4754,
+  "reviewed": true
+ },
+ {
+  "product_id": "2454",
+  "sku": "DKS012805",
+  "verified_shape": "oval",
+  "tryon_image_id": 4758,
+  "reviewed": true
+ },
+ {
+  "product_id": "2455",
+  "sku": "DKS012809",
+  "verified_shape": "round",
+  "tryon_image_id": 4762,
+  "reviewed": true
+ },
+ {
+  "product_id": "2456",
+  "sku": "DKS012810",
+  "verified_shape": "round",
+  "tryon_image_id": 4766,
+  "reviewed": true
+ },
+ {
+  "product_id": "2459",
+  "sku": "DKS012815",
+  "verified_shape": "oval",
+  "tryon_image_id": 4774,
+  "reviewed": true
+ },
+ {
+  "product_id": "2461",
+  "sku": "DKS012820",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 4782,
+  "reviewed": true
+ },
+ {
+  "product_id": "2463",
+  "sku": "DKS012832",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 4790,
+  "reviewed": true
+ },
+ {
+  "product_id": "2464",
+  "sku": "DKS012833",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4794,
+  "reviewed": true
+ },
+ {
+  "product_id": "2465",
+  "sku": "DKS012834",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 4798,
+  "reviewed": true
+ },
+ {
+  "product_id": "2466",
+  "sku": "DKS012838",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 4802,
+  "reviewed": true
+ },
+ {
+  "product_id": "2467",
+  "sku": "DKS012840",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4806,
+  "reviewed": true
+ },
+ {
+  "product_id": "2470",
+  "sku": "DKS012797",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4810,
+  "reviewed": true
+ },
+ {
+  "product_id": "2483",
+  "sku": "DKS012826",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4822,
+  "reviewed": true
+ },
+ {
+  "product_id": "2486",
+  "sku": "DKS012829",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4826,
+  "reviewed": true
+ },
+ {
+  "product_id": "2490",
+  "sku": "DKS012836",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4830,
+  "reviewed": true
+ },
+ {
+  "product_id": "2556",
+  "sku": "DKS012872",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4954,
+  "reviewed": true
+ },
+ {
+  "product_id": "2557",
+  "sku": "DKS012873",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 4958,
+  "reviewed": true
+ },
+ {
+  "product_id": "2562",
+  "sku": "DKS012878",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 4978,
+  "reviewed": true
+ },
+ {
+  "product_id": "2564",
+  "sku": "DKS012880",
+  "verified_shape": "geometric",
+  "tryon_image_id": 4986,
+  "reviewed": true
+ },
+ {
+  "product_id": "2569",
+  "sku": "DKS012885",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4990,
+  "reviewed": true
+ },
+ {
+  "product_id": "2570",
+  "sku": "DKS012886",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4994,
+  "reviewed": true
+ },
+ {
+  "product_id": "2571",
+  "sku": "DKS012887",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 4998,
+  "reviewed": true
+ },
+ {
+  "product_id": "2572",
+  "sku": "DKS012888",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5002,
+  "reviewed": true
+ },
+ {
+  "product_id": "2573",
+  "sku": "DKS012889",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5006,
+  "reviewed": true
+ },
+ {
+  "product_id": "2576",
+  "sku": "DKS012890",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5010,
+  "reviewed": true
+ },
+ {
+  "product_id": "2577",
+  "sku": "DKS012891",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": null,
+  "reviewed": true
+ },
+ {
+  "product_id": "2578",
+  "sku": "DKS012892",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5020,
+  "reviewed": true
+ },
+ {
+  "product_id": "2579",
+  "sku": "DKS012893",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5022,
+  "reviewed": true
+ },
+ {
+  "product_id": "2580",
+  "sku": "DKS012894",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5026,
+  "reviewed": false
+ },
+ {
+  "product_id": "2581",
+  "sku": "DKS012895",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5030,
+  "reviewed": true
+ },
+ {
+  "product_id": "2582",
+  "sku": "DKS012896",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5034,
+  "reviewed": true
+ },
+ {
+  "product_id": "2583",
+  "sku": "DKS012897",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5038,
+  "reviewed": true
+ },
+ {
+  "product_id": "2584",
+  "sku": "DKS012898",
+  "verified_shape": "oval",
+  "tryon_image_id": 5042,
+  "reviewed": true
+ },
+ {
+  "product_id": "2585",
+  "sku": "DKS012899",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5046,
+  "reviewed": true
+ },
+ {
+  "product_id": "2586",
+  "sku": "DKS012900",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5052,
+  "reviewed": true
+ },
+ {
+  "product_id": "2778",
+  "sku": "DKS012994",
+  "verified_shape": "geometric",
+  "tryon_image_id": 5338,
+  "reviewed": true
+ },
+ {
+  "product_id": "2779",
+  "sku": "DKS012995",
+  "verified_shape": "oval",
+  "tryon_image_id": 5342,
+  "reviewed": true
+ },
+ {
+  "product_id": "2780",
+  "sku": "DKS012996",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5346,
+  "reviewed": true
+ },
+ {
+  "product_id": "2781",
+  "sku": "DKS013003",
+  "verified_shape": "oval",
+  "tryon_image_id": 5350,
+  "reviewed": true
+ },
+ {
+  "product_id": "2784",
+  "sku": "DKS013012",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5362,
+  "reviewed": true
+ },
+ {
+  "product_id": "2785",
+  "sku": "DKS013013",
+  "verified_shape": "oval",
+  "tryon_image_id": 5366,
+  "reviewed": true
+ },
+ {
+  "product_id": "2787",
+  "sku": "DKS013015",
+  "verified_shape": "oval",
+  "tryon_image_id": 5374,
+  "reviewed": true
+ },
+ {
+  "product_id": "2789",
+  "sku": "DKS013017",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5384,
+  "reviewed": false
+ },
+ {
+  "product_id": "2791",
+  "sku": "DKS013019",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5392,
+  "reviewed": true
+ },
+ {
+  "product_id": "2792",
+  "sku": "DKS013020",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5396,
+  "reviewed": true
+ },
+ {
+  "product_id": "2793",
+  "sku": "DKS013021",
+  "verified_shape": "oval",
+  "tryon_image_id": 5398,
+  "reviewed": true
+ },
+ {
+  "product_id": "2794",
+  "sku": "DKS013022",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5402,
+  "reviewed": true
+ },
+ {
+  "product_id": "2795",
+  "sku": "DKS013023",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5406,
+  "reviewed": true
+ },
+ {
+  "product_id": "2796",
+  "sku": "DKS013024",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5410,
+  "reviewed": true
+ },
+ {
+  "product_id": "2797",
+  "sku": "DKS013025",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5414,
+  "reviewed": true
+ },
+ {
+  "product_id": "2798",
+  "sku": "DKS013027",
+  "verified_shape": "oval",
+  "tryon_image_id": 5418,
+  "reviewed": true
+ },
+ {
+  "product_id": "2799",
+  "sku": "DKS013028",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5422,
+  "reviewed": true
+ },
+ {
+  "product_id": "2800",
+  "sku": "DKS013029",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5426,
+  "reviewed": true
+ },
+ {
+  "product_id": "2801",
+  "sku": "DKS013031",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5430,
+  "reviewed": true
+ },
+ {
+  "product_id": "2802",
+  "sku": "DKS013032",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5434,
+  "reviewed": true
+ },
+ {
+  "product_id": "2803",
+  "sku": "DKS013033",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5440,
+  "reviewed": true
+ },
+ {
+  "product_id": "2805",
+  "sku": "DKS013035",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5448,
+  "reviewed": true
+ },
+ {
+  "product_id": "2806",
+  "sku": "DKS013036",
+  "verified_shape": "geometric",
+  "tryon_image_id": 5450,
+  "reviewed": true
+ },
+ {
+  "product_id": "2825",
+  "sku": "DKS012991",
+  "verified_shape": "oval",
+  "tryon_image_id": 5518,
+  "reviewed": true
+ },
+ {
+  "product_id": "2826",
+  "sku": "DKS012992",
+  "verified_shape": "oval",
+  "tryon_image_id": 5522,
+  "reviewed": true
+ },
+ {
+  "product_id": "2828",
+  "sku": "DKS012998",
+  "verified_shape": "oval",
+  "tryon_image_id": 5530,
+  "reviewed": true
+ },
+ {
+  "product_id": "2830",
+  "sku": "DKS013000",
+  "verified_shape": "oval",
+  "tryon_image_id": 5538,
+  "reviewed": true
+ },
+ {
+  "product_id": "2831",
+  "sku": "DKS013001",
+  "verified_shape": "round",
+  "tryon_image_id": 5542,
+  "reviewed": true
+ },
+ {
+  "product_id": "2832",
+  "sku": "DKS013002",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5546,
+  "reviewed": true
+ },
+ {
+  "product_id": "2833",
+  "sku": "DKS013004",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5550,
+  "reviewed": true
+ },
+ {
+  "product_id": "2834",
+  "sku": "DKS013005",
+  "verified_shape": "oval",
+  "tryon_image_id": 5556,
+  "reviewed": true
+ },
+ {
+  "product_id": "2835",
+  "sku": "DKS013006",
+  "verified_shape": "oval",
+  "tryon_image_id": 5558,
+  "reviewed": true
+ },
+ {
+  "product_id": "2836",
+  "sku": "DKS013007",
+  "verified_shape": "geometric",
+  "tryon_image_id": 5562,
+  "reviewed": true
+ },
+ {
+  "product_id": "2838",
+  "sku": "DKS013011",
+  "verified_shape": "rectangle",
+  "tryon_image_id": 5572,
+  "reviewed": true
+ },
+ {
+  "product_id": "2839",
+  "sku": "DKS013026",
+  "verified_shape": "cat-eye",
+  "tryon_image_id": 5576,
+  "reviewed": true
+ },
+ {
+  "product_id": "2840",
+  "sku": "DKS013030",
+  "verified_shape": "wayfarer",
+  "tryon_image_id": 5578,
+  "reviewed": true
+ }
+]
