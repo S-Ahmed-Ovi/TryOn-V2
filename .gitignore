@@ -94,7 +94,6 @@ npm-debug.log*
 *.webp
 *.bmp
 dataset/
-images/
 uploads/
 outputs/
 generated/
