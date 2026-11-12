@@ -1,0 +1,25 @@
+{
+  "_note": "Style conventions, not science. Scores are 0-1 (1 = best match). Edit freely; frame names must match products.verified_shape.",
+  "face_shapes": {
+    "oval": {
+      "why": "An oval face is well balanced, so most frame shapes suit it.",
+      "frames": {"wayfarer": 0.95, "geometric": 0.9, "aviator": 0.9, "cat-eye": 0.9, "square": 0.85, "rectangle": 0.85, "round": 0.8, "oval": 0.8}
+    },
+    "round": {
+      "why": "Angular frames add definition and make a round face look longer.",
+      "frames": {"rectangle": 1.0, "wayfarer": 0.95, "square": 0.95, "geometric": 0.85, "cat-eye": 0.7, "aviator": 0.55, "oval": 0.35, "round": 0.25}
+    },
+    "square": {
+      "why": "Round and oval frames soften a strong jaw and angular features.",
+      "frames": {"round": 1.0, "oval": 1.0, "aviator": 0.9, "cat-eye": 0.75, "geometric": 0.5, "wayfarer": 0.45, "rectangle": 0.3, "square": 0.25}
+    },
+    "heart": {
+      "why": "Light, rounded or bottom-heavy frames balance a wider forehead and a narrower chin.",
+      "frames": {"oval": 1.0, "round": 0.95, "aviator": 0.9, "cat-eye": 0.6, "rectangle": 0.55, "geometric": 0.5, "square": 0.45, "wayfarer": 0.4}
+    },
+    "oblong": {
+      "why": "Wide, tall frames add width and make a long face look shorter.",
+      "frames": {"wayfarer": 1.0, "square": 1.0, "round": 0.9, "geometric": 0.8, "aviator": 0.8, "cat-eye": 0.7, "oval": 0.55, "rectangle": 0.4}
+    }
+  }
+}
