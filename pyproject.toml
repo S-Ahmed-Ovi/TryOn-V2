@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tryon"
+version = "2.0.0"
+description = "Face-shape sunglasses recommendations with a 2D and a real 3D (CPU-only) virtual try-on."
+readme = "README.md"
+requires-python = ">=3.10,<3.14"
+dependencies = [
+    "fastapi>=0.110",
+    "uvicorn[standard]>=0.27",      # [standard] brings the websockets package the live 3D camera needs
+    "python-multipart>=0.0.9",
+    "mediapipe>=0.10.14",
+    "opencv-python-headless>=4.8",
+    "numpy>=1.24",
+    "pillow>=10.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "httpx>=0.27", "playwright>=1.40"]      # playwright: only for tests/e2e_browser.py
+
+[project.scripts]
+tryon = "tryon.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tryon = ["assets/**/*", "resources/*.json", "web/**/*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src", "."]
+addopts = "-q"

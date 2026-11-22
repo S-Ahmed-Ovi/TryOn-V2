@@ -1,0 +1,9 @@
+# Runtime dependencies (kept in sync with pyproject.toml).
+# Normal install is:  pip install -e .      (this file is for tools that only read requirements.txt)
+fastapi>=0.110
+uvicorn[standard]>=0.27      # includes websockets (live 3D camera)
+python-multipart>=0.0.9
+mediapipe>=0.10.14
+opencv-python-headless>=4.8
+numpy>=1.24
+pillow>=10.0

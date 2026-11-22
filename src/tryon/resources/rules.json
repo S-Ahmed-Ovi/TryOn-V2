@@ -1,0 +1,188 @@
+{
+  "_note": "Style conventions, not science. Scores are 0-1 (1 = best). Edit freely: frame names must match the frame shapes in the catalog. The 'pairings' sentences are shown to the shopper as the reason for a match.",
+  "weights": {
+    "shape": 0.85,
+    "proportion": 0.15
+  },
+  "labels": [
+    {
+      "min": 90,
+      "label": "Excellent match"
+    },
+    {
+      "min": 80,
+      "label": "Great match"
+    },
+    {
+      "min": 70,
+      "label": "Good match"
+    },
+    {
+      "min": 0,
+      "label": "Worth a try"
+    }
+  ],
+  "face_shapes": {
+    "oval": {
+      "label": "Oval",
+      "summary": "Balanced proportions: a little longer than wide, with a softly rounded jaw.",
+      "principle": "Almost any frame works on an oval face, so choose by style rather than correction.",
+      "frames": {
+        "wayfarer": 0.95,
+        "geometric": 0.9,
+        "aviator": 0.9,
+        "cat-eye": 0.9,
+        "square": 0.85,
+        "rectangle": 0.85,
+        "round": 0.8,
+        "oval": 0.8
+      }
+    },
+    "round": {
+      "label": "Round",
+      "summary": "Face length and cheekbone width are close, with full cheeks and a soft jaw.",
+      "principle": "Angular frames add definition and make a round face look longer.",
+      "frames": {
+        "rectangle": 1.0,
+        "wayfarer": 0.95,
+        "square": 0.95,
+        "geometric": 0.85,
+        "cat-eye": 0.7,
+        "aviator": 0.55,
+        "oval": 0.35,
+        "round": 0.25
+      }
+    },
+    "square": {
+      "label": "Square",
+      "summary": "A strong jaw and a forehead of similar width, with fairly straight sides.",
+      "principle": "Curved frames soften angles and balance a strong jawline.",
+      "frames": {
+        "round": 1.0,
+        "oval": 1.0,
+        "aviator": 0.9,
+        "cat-eye": 0.75,
+        "geometric": 0.5,
+        "wayfarer": 0.45,
+        "rectangle": 0.3,
+        "square": 0.25
+      }
+    },
+    "heart": {
+      "label": "Heart",
+      "summary": "A wider forehead and cheekbones narrowing to a slim chin.",
+      "principle": "Frames that are light on top or wider at the bottom balance a narrow chin.",
+      "frames": {
+        "oval": 1.0,
+        "round": 0.95,
+        "aviator": 0.9,
+        "cat-eye": 0.6,
+        "rectangle": 0.55,
+        "geometric": 0.5,
+        "square": 0.45,
+        "wayfarer": 0.4
+      }
+    },
+    "oblong": {
+      "label": "Oblong",
+      "summary": "Noticeably longer than wide, with a long straight cheek line.",
+      "principle": "Wide, deep frames add width and make a long face look shorter.",
+      "frames": {
+        "wayfarer": 1.0,
+        "square": 1.0,
+        "round": 0.9,
+        "geometric": 0.8,
+        "aviator": 0.8,
+        "cat-eye": 0.7,
+        "oval": 0.55,
+        "rectangle": 0.4
+      }
+    }
+  },
+  "frame_shapes": {
+    "wayfarer": {
+      "label": "Wayfarer",
+      "summary": "Slightly angled acetate frames, wider across the top. Bold and timeless."
+    },
+    "rectangle": {
+      "label": "Rectangle",
+      "summary": "Wider than tall, with straight edges. Sharp and structured."
+    },
+    "square": {
+      "label": "Square",
+      "summary": "As tall as they are wide, with firm corners. Strong and graphic."
+    },
+    "round": {
+      "label": "Round",
+      "summary": "Circular lenses with no corners. Soft, retro and artistic."
+    },
+    "oval": {
+      "label": "Oval",
+      "summary": "Gently curved lenses a little wider than tall. Easy and flattering."
+    },
+    "cat-eye": {
+      "label": "Cat-eye",
+      "summary": "Outer corners sweep upwards to lift the face. Confident and feminine."
+    },
+    "aviator": {
+      "label": "Aviator",
+      "summary": "Large teardrop lenses in a thin metal frame. Classic and light."
+    },
+    "geometric": {
+      "label": "Geometric",
+      "summary": "Faceted and hexagonal shapes with distinctive edges. Fashion-forward."
+    }
+  },
+  "pairings": {
+    "oval": {
+      "wayfarer": "Classic wayfarers sit neatly on balanced proportions and keep your natural symmetry.",
+      "rectangle": "Clean rectangular lines add a crisp, modern edge without upsetting your balance.",
+      "square": "Square lenses add a graphic edge, and an oval face carries the corners easily.",
+      "round": "Round lenses echo your soft curves for an easy, harmonious look.",
+      "oval": "Oval lenses mirror the shape of your face and keep everything in proportion.",
+      "cat-eye": "The upswept corners lift balanced features and add some personality.",
+      "aviator": "The teardrop shape suits balanced faces and never overwhelms them.",
+      "geometric": "An oval face can carry bold facets, which makes this a good way to stand out."
+    },
+    "round": {
+      "wayfarer": "The angled top line adds structure and makes a round face look a little longer.",
+      "rectangle": "Wide, straight lines give a round face the definition it lacks and lengthen it.",
+      "square": "Firm corners contrast with soft curves and add definition across the cheeks.",
+      "round": "Round lenses repeat your curves, so the effect is soft but adds little definition.",
+      "oval": "Soft oval lenses are gentle on a round face but add little definition.",
+      "cat-eye": "Upswept corners draw the eye up and out, which helps lift fuller cheeks.",
+      "aviator": "The straight brow bar adds some definition, though the teardrop is fairly soft.",
+      "geometric": "Faceted edges break up round contours and add welcome angles."
+    },
+    "square": {
+      "wayfarer": "The strong top line repeats the angles of your jaw. It works, but it is a bold look.",
+      "rectangle": "Straight lines echo a square jaw and can make the lower face look heavier.",
+      "square": "Square on square doubles the angles, so expect a very strong look.",
+      "round": "Round lenses soften a strong jaw and balance angular features.",
+      "oval": "Oval lenses add curves where your face has angles, for a softer balance.",
+      "cat-eye": "Upswept curves soften the jawline and lift the face.",
+      "aviator": "The curved teardrop softens a strong jaw while keeping the look sharp.",
+      "geometric": "Faceted shapes can compete with a strong jaw; rounded versions work best."
+    },
+    "heart": {
+      "wayfarer": "A heavy top line adds weight to a forehead that is already your widest point.",
+      "rectangle": "Straight lines are neutral on a heart-shaped face but do little to balance the chin.",
+      "square": "Strong corners emphasise the forehead. A lighter frame would balance better.",
+      "round": "Round lenses soften a wide forehead and bring balance to a narrow chin.",
+      "oval": "Soft, light oval lenses balance a wide forehead and a narrow chin.",
+      "cat-eye": "The upswept line adds lift but also width on top, so a lighter frame works best.",
+      "aviator": "A teardrop is wider at the bottom, which balances a narrower chin.",
+      "geometric": "Heavy angular shapes add more weight to the top of the face."
+    },
+    "oblong": {
+      "wayfarer": "Wide, deep frames add width and make a long face look shorter.",
+      "rectangle": "A shallow rectangle can make a long face look longer. Deeper frames work better.",
+      "square": "Tall square lenses add width and shorten the length of the face.",
+      "round": "Round lenses add width and soften a long face.",
+      "oval": "A shallow oval can make a long face look longer. Deeper lenses balance better.",
+      "cat-eye": "Upswept corners add width at the cheekbones and balance a long face.",
+      "aviator": "Large aviators add width and cover more of the mid-face.",
+      "geometric": "Wide angular shapes add interest across the cheeks without adding length."
+    }
+  }
+}

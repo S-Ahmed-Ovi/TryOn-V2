@@ -1,0 +1,871 @@
+{
+ "version": 1,
+ "unit": "m",
+ "generator": "tryon.models3d.generator",
+ "models": [
+  {
+   "sku": "TO-WAY-01",
+   "name": "Wayfarer Classic",
+   "frame_shape": "wayfarer",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-WAY-01.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#17181c"
+   },
+   "lens": {
+    "name": "G-15 green",
+    "hex": "#26382c",
+    "mirror": false
+   },
+   "frame_width_mm": 134.3,
+   "lens_width_mm": 52.0,
+   "lens_height_mm": 42.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 149.8,
+   "triangles": 13344,
+   "bytes": 267244,
+   "bounds_mm": {
+    "min": [
+     -67.1,
+     -27.7,
+     -146.3
+    ],
+    "max": [
+     67.1,
+     27.1,
+     3.5
+    ]
+   }
+  },
+  {
+   "sku": "TO-WAY-02",
+   "name": "Wayfarer Havana",
+   "frame_shape": "wayfarer",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-WAY-02.glb",
+   "color": {
+    "name": "Tortoise",
+    "hex": "#8a4e16"
+   },
+   "lens": {
+    "name": "Brown gradient",
+    "hex": "#4a2f1c",
+    "mirror": false
+   },
+   "frame_width_mm": 136.2,
+   "lens_width_mm": 53.0,
+   "lens_height_mm": 42.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 149.8,
+   "triangles": 13344,
+   "bytes": 359852,
+   "bounds_mm": {
+    "min": [
+     -68.1,
+     -27.7,
+     -146.3
+    ],
+    "max": [
+     68.1,
+     26.9,
+     3.5
+    ]
+   }
+  },
+  {
+   "sku": "TO-WAY-03",
+   "name": "Wayfarer Navy",
+   "frame_shape": "wayfarer",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-WAY-03.glb",
+   "color": {
+    "name": "Navy",
+    "hex": "#1f2c52"
+   },
+   "lens": {
+    "name": "Slate",
+    "hex": "#394554",
+    "mirror": false
+   },
+   "frame_width_mm": 132.2,
+   "lens_width_mm": 51.0,
+   "lens_height_mm": 41.0,
+   "bridge_mm": 19.0,
+   "temple_mm": 149.5,
+   "triangles": 13344,
+   "bytes": 267244,
+   "bounds_mm": {
+    "min": [
+     -66.1,
+     -26.8,
+     -146.2
+    ],
+    "max": [
+     66.1,
+     25.8,
+     3.3
+    ]
+   }
+  },
+  {
+   "sku": "TO-RCT-01",
+   "name": "Slim Rectangle",
+   "frame_shape": "rectangle",
+   "audience": "men",
+   "style": "acetate",
+   "file": "TO-RCT-01.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#141518"
+   },
+   "lens": {
+    "name": "Smoke",
+    "hex": "#2a2d31",
+    "mirror": false
+   },
+   "frame_width_mm": 133.3,
+   "lens_width_mm": 54.0,
+   "lens_height_mm": 34.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 147.9,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -66.6,
+     -20.7,
+     -145.3
+    ],
+    "max": [
+     66.6,
+     19.9,
+     2.6
+    ]
+   }
+  },
+  {
+   "sku": "TO-RCT-02",
+   "name": "Gunmetal Rectangle",
+   "frame_shape": "rectangle",
+   "audience": "men",
+   "style": "wire",
+   "file": "TO-RCT-02.glb",
+   "color": {
+    "name": "Gunmetal",
+    "hex": "#585d66"
+   },
+   "lens": {
+    "name": "Blue-grey gradient",
+    "hex": "#2c3b4a",
+    "mirror": false
+   },
+   "frame_width_mm": 131.4,
+   "lens_width_mm": 55.0,
+   "lens_height_mm": 36.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 146.1,
+   "triangles": 10560,
+   "bytes": 218288,
+   "bounds_mm": {
+    "min": [
+     -65.7,
+     -20.1,
+     -145.2
+    ],
+    "max": [
+     65.7,
+     18.7,
+     0.9
+    ]
+   }
+  },
+  {
+   "sku": "TO-RCT-03",
+   "name": "Bold Rectangle",
+   "frame_shape": "rectangle",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-RCT-03.glb",
+   "color": {
+    "name": "Brown",
+    "hex": "#4b2f21"
+   },
+   "lens": {
+    "name": "Amber brown",
+    "hex": "#4b3420",
+    "mirror": false
+   },
+   "frame_width_mm": 138.1,
+   "lens_width_mm": 53.0,
+   "lens_height_mm": 38.0,
+   "bridge_mm": 19.0,
+   "temple_mm": 148.9,
+   "triangles": 13344,
+   "bytes": 267244,
+   "bounds_mm": {
+    "min": [
+     -69.1,
+     -25.2,
+     -145.4
+    ],
+    "max": [
+     69.1,
+     24.8,
+     3.5
+    ]
+   }
+  },
+  {
+   "sku": "TO-SQR-01",
+   "name": "Bold Square",
+   "frame_shape": "square",
+   "audience": "men",
+   "style": "acetate",
+   "file": "TO-SQR-01.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#111214"
+   },
+   "lens": {
+    "name": "Dark grey",
+    "hex": "#24262a",
+    "mirror": false
+   },
+   "frame_width_mm": 134.6,
+   "lens_width_mm": 50.0,
+   "lens_height_mm": 46.0,
+   "bridge_mm": 20.0,
+   "temple_mm": 149.9,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -67.3,
+     -29.9,
+     -146.1
+    ],
+    "max": [
+     67.3,
+     29.5,
+     3.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-SQR-02",
+   "name": "Square Havana",
+   "frame_shape": "square",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-SQR-02.glb",
+   "color": {
+    "name": "Tortoise",
+    "hex": "#8a4e16"
+   },
+   "lens": {
+    "name": "Olive",
+    "hex": "#3a4228",
+    "mirror": false
+   },
+   "frame_width_mm": 133.2,
+   "lens_width_mm": 50.0,
+   "lens_height_mm": 45.0,
+   "bridge_mm": 20.0,
+   "temple_mm": 149.7,
+   "triangles": 13344,
+   "bytes": 359852,
+   "bounds_mm": {
+    "min": [
+     -66.6,
+     -28.8,
+     -146.1
+    ],
+    "max": [
+     66.6,
+     28.4,
+     3.6
+    ]
+   }
+  },
+  {
+   "sku": "TO-SQR-03",
+   "name": "Square Gold",
+   "frame_shape": "square",
+   "audience": "unisex",
+   "style": "wire",
+   "file": "TO-SQR-03.glb",
+   "color": {
+    "name": "Gold",
+    "hex": "#c9a04a"
+   },
+   "lens": {
+    "name": "G-15 green",
+    "hex": "#26382c",
+    "mirror": false
+   },
+   "frame_width_mm": 125.4,
+   "lens_width_mm": 52.0,
+   "lens_height_mm": 46.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 145.9,
+   "triangles": 10560,
+   "bytes": 218280,
+   "bounds_mm": {
+    "min": [
+     -62.7,
+     -25.3,
+     -145.0
+    ],
+    "max": [
+     62.7,
+     23.5,
+     0.9
+    ]
+   }
+  },
+  {
+   "sku": "TO-RND-01",
+   "name": "Round Gold Wire",
+   "frame_shape": "round",
+   "audience": "unisex",
+   "style": "wire",
+   "file": "TO-RND-01.glb",
+   "color": {
+    "name": "Gold",
+    "hex": "#d1ab55"
+   },
+   "lens": {
+    "name": "Brown",
+    "hex": "#4c3322",
+    "mirror": false
+   },
+   "frame_width_mm": 121.3,
+   "lens_width_mm": 48.0,
+   "lens_height_mm": 48.0,
+   "bridge_mm": 22.0,
+   "temple_mm": 144.7,
+   "triangles": 10560,
+   "bytes": 218284,
+   "bounds_mm": {
+    "min": [
+     -60.7,
+     -25.3,
+     -143.9
+    ],
+    "max": [
+     60.7,
+     25.3,
+     0.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-RND-02",
+   "name": "Round Tortoise",
+   "frame_shape": "round",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-RND-02.glb",
+   "color": {
+    "name": "Tortoise",
+    "hex": "#8a4e16"
+   },
+   "lens": {
+    "name": "Green",
+    "hex": "#2c4030",
+    "mirror": false
+   },
+   "frame_width_mm": 129.4,
+   "lens_width_mm": 49.0,
+   "lens_height_mm": 49.0,
+   "bridge_mm": 21.0,
+   "temple_mm": 148.3,
+   "triangles": 13344,
+   "bytes": 359856,
+   "bounds_mm": {
+    "min": [
+     -64.7,
+     -28.9,
+     -145.1
+    ],
+    "max": [
+     64.7,
+     29.3,
+     3.2
+    ]
+   }
+  },
+  {
+   "sku": "TO-RND-03",
+   "name": "Round Silver Mirror",
+   "frame_shape": "round",
+   "audience": "unisex",
+   "style": "wire",
+   "file": "TO-RND-03.glb",
+   "color": {
+    "name": "Silver",
+    "hex": "#c5c9cf"
+   },
+   "lens": {
+    "name": "Blue mirror",
+    "hex": "#4a73a6",
+    "mirror": true
+   },
+   "frame_width_mm": 124.3,
+   "lens_width_mm": 50.0,
+   "lens_height_mm": 50.0,
+   "bridge_mm": 21.0,
+   "temple_mm": 144.8,
+   "triangles": 10560,
+   "bytes": 218284,
+   "bounds_mm": {
+    "min": [
+     -62.2,
+     -26.3,
+     -144.0
+    ],
+    "max": [
+     62.2,
+     26.3,
+     0.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-OVL-01",
+   "name": "Soft Oval",
+   "frame_shape": "oval",
+   "audience": "women",
+   "style": "acetate",
+   "file": "TO-OVL-01.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#17181b"
+   },
+   "lens": {
+    "name": "Smoke",
+    "hex": "#33363b",
+    "mirror": false
+   },
+   "frame_width_mm": 131.7,
+   "lens_width_mm": 52.0,
+   "lens_height_mm": 40.0,
+   "bridge_mm": 19.0,
+   "temple_mm": 148.0,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -65.8,
+     -23.6,
+     -145.2
+    ],
+    "max": [
+     65.8,
+     24.2,
+     2.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-OVL-02",
+   "name": "Oval Rose Gold",
+   "frame_shape": "oval",
+   "audience": "women",
+   "style": "wire",
+   "file": "TO-OVL-02.glb",
+   "color": {
+    "name": "Rose gold",
+    "hex": "#c98c7b"
+   },
+   "lens": {
+    "name": "Rose gradient",
+    "hex": "#8a4d56",
+    "mirror": false
+   },
+   "frame_width_mm": 128.3,
+   "lens_width_mm": 53.0,
+   "lens_height_mm": 41.0,
+   "bridge_mm": 19.0,
+   "temple_mm": 144.9,
+   "triangles": 10560,
+   "bytes": 218280,
+   "bounds_mm": {
+    "min": [
+     -64.2,
+     -21.8,
+     -144.1
+    ],
+    "max": [
+     64.2,
+     21.8,
+     0.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-OVL-03",
+   "name": "Oval Honey",
+   "frame_shape": "oval",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-OVL-03.glb",
+   "color": {
+    "name": "Honey",
+    "hex": "#c9a24e"
+   },
+   "lens": {
+    "name": "Amber",
+    "hex": "#7a4a1a",
+    "mirror": false
+   },
+   "frame_width_mm": 136.1,
+   "lens_width_mm": 54.0,
+   "lens_height_mm": 42.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 148.4,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -68.1,
+     -25.2,
+     -145.4
+    ],
+    "max": [
+     68.1,
+     26.0,
+     3.0
+    ]
+   }
+  },
+  {
+   "sku": "TO-CAT-01",
+   "name": "Cat-Eye Noir",
+   "frame_shape": "cat-eye",
+   "audience": "women",
+   "style": "acetate",
+   "file": "TO-CAT-01.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#141416"
+   },
+   "lens": {
+    "name": "Smoke",
+    "hex": "#2a2b30",
+    "mirror": false
+   },
+   "frame_width_mm": 139.8,
+   "lens_width_mm": 54.0,
+   "lens_height_mm": 42.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 149.8,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -69.9,
+     -21.8,
+     -146.5
+    ],
+    "max": [
+     69.9,
+     31.6,
+     3.3
+    ]
+   }
+  },
+  {
+   "sku": "TO-CAT-02",
+   "name": "Cat-Eye Burgundy",
+   "frame_shape": "cat-eye",
+   "audience": "women",
+   "style": "acetate",
+   "file": "TO-CAT-02.glb",
+   "color": {
+    "name": "Burgundy",
+    "hex": "#591729"
+   },
+   "lens": {
+    "name": "Plum",
+    "hex": "#4b2a3c",
+    "mirror": false
+   },
+   "frame_width_mm": 139.2,
+   "lens_width_mm": 54.0,
+   "lens_height_mm": 41.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 149.7,
+   "triangles": 13344,
+   "bytes": 267248,
+   "bounds_mm": {
+    "min": [
+     -69.6,
+     -21.2,
+     -146.5
+    ],
+    "max": [
+     69.6,
+     30.6,
+     3.2
+    ]
+   }
+  },
+  {
+   "sku": "TO-CAT-03",
+   "name": "Cat-Eye Havana",
+   "frame_shape": "cat-eye",
+   "audience": "women",
+   "style": "acetate",
+   "file": "TO-CAT-03.glb",
+   "color": {
+    "name": "Tortoise",
+    "hex": "#8a4e16"
+   },
+   "lens": {
+    "name": "Brown gradient",
+    "hex": "#4a2f1c",
+    "mirror": false
+   },
+   "frame_width_mm": 141.7,
+   "lens_width_mm": 55.0,
+   "lens_height_mm": 42.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 149.9,
+   "triangles": 13344,
+   "bytes": 359852,
+   "bounds_mm": {
+    "min": [
+     -70.8,
+     -21.8,
+     -146.6
+    ],
+    "max": [
+     70.8,
+     31.4,
+     3.3
+    ]
+   }
+  },
+  {
+   "sku": "TO-AVI-01",
+   "name": "Aviator Gold",
+   "frame_shape": "aviator",
+   "audience": "men",
+   "style": "wire",
+   "file": "TO-AVI-01.glb",
+   "color": {
+    "name": "Gold",
+    "hex": "#d2ad58"
+   },
+   "lens": {
+    "name": "G-15 green",
+    "hex": "#27402f",
+    "mirror": false
+   },
+   "frame_width_mm": 136.4,
+   "lens_width_mm": 58.0,
+   "lens_height_mm": 50.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 146.3,
+   "triangles": 11040,
+   "bytes": 227356,
+   "bounds_mm": {
+    "min": [
+     -68.2,
+     -30.3,
+     -145.4
+    ],
+    "max": [
+     68.2,
+     22.3,
+     0.9
+    ]
+   }
+  },
+  {
+   "sku": "TO-AVI-02",
+   "name": "Aviator Silver Mirror",
+   "frame_shape": "aviator",
+   "audience": "unisex",
+   "style": "wire",
+   "file": "TO-AVI-02.glb",
+   "color": {
+    "name": "Silver",
+    "hex": "#c8ccd2"
+   },
+   "lens": {
+    "name": "Blue mirror",
+    "hex": "#3f6a9c",
+    "mirror": true
+   },
+   "frame_width_mm": 136.4,
+   "lens_width_mm": 58.0,
+   "lens_height_mm": 50.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 146.3,
+   "triangles": 11040,
+   "bytes": 227356,
+   "bounds_mm": {
+    "min": [
+     -68.2,
+     -30.3,
+     -145.4
+    ],
+    "max": [
+     68.2,
+     22.3,
+     0.9
+    ]
+   }
+  },
+  {
+   "sku": "TO-AVI-03",
+   "name": "Aviator Gunmetal",
+   "frame_shape": "aviator",
+   "audience": "men",
+   "style": "wire",
+   "file": "TO-AVI-03.glb",
+   "color": {
+    "name": "Gunmetal",
+    "hex": "#4f545d"
+   },
+   "lens": {
+    "name": "Grey gradient",
+    "hex": "#30343a",
+    "mirror": false
+   },
+   "frame_width_mm": 140.4,
+   "lens_width_mm": 60.0,
+   "lens_height_mm": 52.0,
+   "bridge_mm": 17.0,
+   "temple_mm": 146.5,
+   "triangles": 11040,
+   "bytes": 227360,
+   "bounds_mm": {
+    "min": [
+     -70.2,
+     -31.6,
+     -145.5
+    ],
+    "max": [
+     70.2,
+     23.3,
+     0.9
+    ]
+   }
+  },
+  {
+   "sku": "TO-GEO-01",
+   "name": "Hex Gold",
+   "frame_shape": "geometric",
+   "audience": "unisex",
+   "style": "wire",
+   "file": "TO-GEO-01.glb",
+   "color": {
+    "name": "Gold",
+    "hex": "#d0aa56"
+   },
+   "lens": {
+    "name": "Amber gradient",
+    "hex": "#7a4d1c",
+    "mirror": false
+   },
+   "frame_width_mm": 127.3,
+   "lens_width_mm": 52.0,
+   "lens_height_mm": 46.0,
+   "bridge_mm": 20.0,
+   "temple_mm": 144.9,
+   "triangles": 10560,
+   "bytes": 218284,
+   "bounds_mm": {
+    "min": [
+     -63.7,
+     -24.3,
+     -144.1
+    ],
+    "max": [
+     63.7,
+     24.3,
+     0.8
+    ]
+   }
+  },
+  {
+   "sku": "TO-GEO-02",
+   "name": "Octagon Black",
+   "frame_shape": "geometric",
+   "audience": "unisex",
+   "style": "acetate",
+   "file": "TO-GEO-02.glb",
+   "color": {
+    "name": "Black",
+    "hex": "#16171a"
+   },
+   "lens": {
+    "name": "Smoke",
+    "hex": "#2d3034",
+    "mirror": false
+   },
+   "frame_width_mm": 129.1,
+   "lens_width_mm": 50.0,
+   "lens_height_mm": 46.0,
+   "bridge_mm": 20.0,
+   "temple_mm": 148.0,
+   "triangles": 13344,
+   "bytes": 267244,
+   "bounds_mm": {
+    "min": [
+     -64.6,
+     -26.8,
+     -145.0
+    ],
+    "max": [
+     64.6,
+     27.4,
+     3.0
+    ]
+   }
+  },
+  {
+   "sku": "TO-GEO-03",
+   "name": "Angular Silver",
+   "frame_shape": "geometric",
+   "audience": "women",
+   "style": "wire",
+   "file": "TO-GEO-03.glb",
+   "color": {
+    "name": "Silver",
+    "hex": "#bcc1c8"
+   },
+   "lens": {
+    "name": "Mint",
+    "hex": "#5f9a90",
+    "mirror": false
+   },
+   "frame_width_mm": 129.3,
+   "lens_width_mm": 54.0,
+   "lens_height_mm": 44.0,
+   "bridge_mm": 18.0,
+   "temple_mm": 145.9,
+   "triangles": 10560,
+   "bytes": 218284,
+   "bounds_mm": {
+    "min": [
+     -64.7,
+     -23.2,
+     -145.1
+    ],
+    "max": [
+     64.7,
+     23.2,
+     0.8
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>{{SITE_NAME}} · Sunglasses picked for your face</title>
+  <meta name="description" content="Upload a photo or use your camera. We read your face shape, match you with sunglasses, and show them on you.">
+  <meta name="theme-color" content="#0e1411">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23123f34'/%3E%3Cpath d='M8 27h48M14 27c0 9 5 14 11 14s9-5 10-14M29 27c1 9 4 14 10 14s11-5 11-14' fill='none' stroke='%23edf0ea' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preload" href="/static/fonts/instrument-serif-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/static/fonts/instrument-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/static/css/base.css">
+  <link rel="stylesheet" href="/static/css/components.css">
+  <link rel="stylesheet" href="/static/css/sections.css">
+</head>
+<body>
+<a class="skip" href="#studio">Skip to the fitting room</a>
+
+<header class="nav" id="nav">
+  <a class="brand" href="#top" aria-label="{{SITE_NAME}} home">
+    <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 26h52M12 26c0 10 5 16 12 16s10-6 11-16M29 26c1 10 4 16 11 16s12-6 12-16" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <span>{{SITE_NAME}}</span>
+  </a>
+  <nav class="nav-links" aria-label="Sections">
+    <a href="#how">How it works</a>
+    <a href="#faces">Face shapes</a>
+    <a href="#collection">Collection</a>
+  </nav>
+  <a class="btn btn-primary btn-sm" href="#studio" data-action="start">Find my frames</a>
+</header>
+
+<main id="top">
+  <!-- ───────────────────────── HERO ───────────────────────── -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="dot"></span> Virtual try-on · Face-shape matching</p>
+        <h1>Find the frames your face was <em>made&nbsp;for.</em></h1>
+        <p class="lede">Upload a selfie or open your camera. We map your face, match you with sunglasses that flatter it, and put them on you, with a score and a reason for every pick.</p>
+        <div class="hero-cta">
+          <button class="btn btn-primary btn-lg" data-action="upload">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 16V4m0 0L7 9m5-5 5 5M5 20h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Upload a photo
+          </button>
+          <button class="btn btn-ghost btn-lg" data-action="camera">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13.5" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            Use camera
+          </button>
+        </div>
+        <ul class="proof">
+          <li><b id="stat-count">24</b> frames</li>
+          <li><b>Real 3D</b> try-on</li>
+          <li><b>Private</b> photos are never saved</li>
+        </ul>
+      </div>
+
+      <div class="hero-stage" aria-hidden="true">
+        <div class="sun"></div>
+        <svg class="orbit" viewBox="0 0 600 600"><circle cx="300" cy="300" r="268" fill="none" stroke="currentColor" stroke-width="1" stroke-dasharray="2 9"/></svg>
+        <img class="hero-glasses is-front" alt="" id="hero-a" width="900" height="320">
+        <img class="hero-glasses" alt="" id="hero-b" width="900" height="320">
+        <div class="hero-chip" id="hero-chip"><span class="hero-chip-pct">98%</span><span class="hero-chip-text"><b>Wayfarer</b>for Oblong faces</span></div>
+        <div class="hero-dots" id="hero-dots"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FITTING ROOM ───────────────────────── -->
+  <section class="studio" id="studio" data-state="intake">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow on-dark">The fitting room</p>
+        <h2>Try them on, <em>without the mirror.</em></h2>
+      </header>
+
+      <div class="status" id="status" role="status" aria-live="polite" hidden></div>
+
+      <!-- 1 · choose how to give us your face -->
+      <div class="panel panel-intake" data-panel="intake">
+        <div class="intake-grid">
+          <div class="drop" id="drop" tabindex="0" role="button" aria-label="Upload a photo. Drop an image here or press Enter to browse.">
+            <div class="drop-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><rect x="6" y="10" width="36" height="28" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17" cy="20" r="3.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="m8 35 10-9 7 6 6-5 9 8" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+            <h3>Upload a photo</h3>
+            <p>Drag one here, or <span class="u">browse</span>. JPG, PNG or WebP.</p>
+          </div>
+          <div class="cam-card">
+            <div class="drop-icon"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 17h6l3-4h14l3 4h6a2 2 0 0 1 2 2v17a2 2 0 0 1-2 2H8a2 2 0 0 1-2-2V19a2 2 0 0 1 2-2Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="24" cy="27" r="7" fill="none" stroke="currentColor" stroke-width="2"/></svg></div>
+            <h3>Take a photo</h3>
+            <p>Use your laptop or phone camera.</p>
+            <button class="btn btn-light" data-action="camera">Open camera</button>
+          </div>
+        </div>
+        <ul class="tips">
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="2.4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Face the camera straight on</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M12 3v2m0 14v2M3 12h2m14 0h2m-2.6-6.4-1.4 1.4M7 17l-1.4 1.4m0-12.8L7 7m10 10 1.4 1.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>Soft, even light on your face</li>
+          <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 9c0-4 3-6 7-6s7 2 7 6v3c0 5-3 9-7 9s-7-4-7-9V9Z" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>Hair back, no glasses on</li>
+        </ul>
+        <p class="alt-path">Rather not share a photo? <button class="link" data-action="pick-shape">Choose your face shape instead</button></p>
+      </div>
+
+      <!-- 2 · live camera -->
+      <div class="panel panel-camera" data-panel="camera" hidden>
+        <div class="cam-wrap">
+          <video id="cam-video" playsinline muted></video>
+          <div class="cam-guide" aria-hidden="true"><svg viewBox="0 0 300 400" preserveAspectRatio="xMidYMid slice"><defs><mask id="oval-mask"><rect width="300" height="400" fill="#fff"/><ellipse cx="150" cy="188" rx="96" ry="128" fill="#000"/></mask></defs><rect width="300" height="400" fill="rgba(8,12,10,.55)" mask="url(#oval-mask)"/><ellipse cx="150" cy="188" rx="96" ry="128" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="3 7" stroke-linecap="round"/></svg></div>
+          <div class="cam-hint" id="cam-hint">Fit your face inside the oval</div>
+          <div class="cam-count" id="cam-count" hidden></div>
+          <div class="cam-flash" id="cam-flash"></div>
+        </div>
+        <div class="cam-bar">
+          <button class="btn btn-ghost-light" data-action="camera-cancel">Cancel</button>
+          <button class="shutter" id="shutter" aria-label="Take photo"><span></span></button>
+          <button class="btn btn-ghost-light" id="cam-flip" data-action="camera-flip">Flip camera</button>
+        </div>
+      </div>
+
+      <!-- 3 · analysing -->
+      <div class="panel panel-analyzing" data-panel="analyzing" hidden>
+        <div class="scan-card"><canvas id="scan-canvas"></canvas><div class="scan-line"></div></div>
+        <p class="scan-text" id="scan-text">Mapping 478 points on your face…</p>
+      </div>
+
+      <!-- 4 · results -->
+      <div class="panel panel-results" data-panel="results" hidden>
+        <div class="fit">
+          <div class="fit-stage">
+            <div class="mode-bar" id="mode-bar">
+              <div class="seg" id="mode-seg" role="group" aria-label="Try-on style">
+                <button data-mode="2d" aria-pressed="true">Quick 2D</button>
+                <button data-mode="3d" aria-pressed="false">Real 3D</button>
+              </div>
+              <p class="mode-note" id="mode-note" aria-live="polite"></p>
+            </div>
+            <div class="showcase" id="showcase" hidden>
+              <div class="showcase-img" id="showcase-img"></div>
+              <div class="showcase-cta">
+                <h4>See it on you</h4>
+                <p>Add a photo and we'll place these frames on your face, and check your face shape too.</p>
+                <div class="row"><button class="btn btn-light" data-action="upload">Upload a photo</button><button class="btn btn-ghost-light" data-action="camera">Use camera</button></div>
+              </div>
+            </div>
+            <div class="stage" id="stage">
+              <canvas id="stage-canvas" aria-label="Your photo with the selected sunglasses"></canvas>
+              <canvas id="live-canvas" hidden aria-label="Your live camera with the selected sunglasses on your face"></canvas>
+              <p class="stage-hint live-hint" id="live-hint" hidden></p>
+              <button class="stage-chip stage-chip-tl" id="btn-compare" title="Hold to see your original photo">Hold to compare</button>
+              <button class="stage-chip stage-chip-tr" id="btn-measure" aria-pressed="false">Show measurements</button>
+              <p class="stage-hint" id="stage-hint">Drag the glasses to adjust</p>
+            </div>
+            <div class="stage-controls">
+              <label class="slider"><span>Size</span><input type="range" id="ctl-size" min="80" max="125" value="100" step="1"></label>
+              <label class="slider"><span>Height</span><input type="range" id="ctl-lift" min="-20" max="20" value="0" step="1"></label>
+              <button class="btn btn-ghost-light btn-sm" id="btn-reset">Reset</button>
+            </div>
+            <div class="stage-actions">
+              <button class="btn btn-light" id="btn-download"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4v11m0 0-4-4m4 4 4-4M5 20h14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Save this look</button>
+              <button class="btn btn-ghost-light" id="btn-live" hidden>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 8h3l1.5-2h7L17 8h3a1 1 0 0 1 1 1v9a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="13.5" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+                <span>Live 3D camera</span>
+              </button>
+              <button class="btn btn-ghost-light" data-action="restart">Try another photo</button>
+            </div>
+          </div>
+
+          <div class="fit-side" id="side">
+            <div class="verdict" id="verdict"></div>
+            <div class="filters" id="filters"></div>
+            <ol class="recs" id="recs"></ol>
+            <button class="btn btn-ghost-light more" id="btn-more" hidden>Show more matches</button>
+            <details class="how-score">
+              <summary>How is the match calculated?</summary>
+              <p><b>85% shape harmony.</b> How well the frame's shape suits your face shape, using classic fitting rules. If your face sits between two shapes, we blend both.</p>
+              <p><b>15% proportions.</b> How well the frame's depth suits the length of your face. This part is a rule of thumb, so it only nudges the ranking.</p>
+              <p>These are style guidelines, not strict rules. The best frame is one you love wearing.</p>
+            </details>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4b · no photo: browse by face shape -->
+      <div class="panel panel-shape" data-panel="shape" hidden>
+        <div class="shape-pick">
+          <h3>Which face shape is yours?</h3>
+          <p>Not sure? Look at the guide below, or <button class="link" data-action="upload">upload a photo</button> and we'll work it out.</p>
+          <div class="shape-grid" id="shape-pick-grid"></div>
+          <button class="btn btn-ghost-light" data-action="restart">Back</button>
+        </div>
+      </div>
+    </div>
+
+    <input type="file" id="file" accept="image/*" hidden>
+    <input type="file" id="file-capture" accept="image/*" capture="user" hidden>
+  </section>
+
+  <!-- ───────────────────────── HOW IT WORKS ───────────────────────── -->
+  <section class="how" id="how">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow">How it works</p>
+        <h2>From selfie to short-list <em>in three moves.</em></h2>
+      </header>
+      <ol class="steps">
+        <li><span class="step-n">1</span><h3>Show us your face</h3><p>Upload a photo or take one here. It's read in memory and discarded straight after. We never store it.</p></li>
+        <li><span class="step-n">2</span><h3>We measure it</h3><p>478 points on your face give us its length, cheekbones, jaw and forehead, which together decide your face shape.</p></li>
+        <li><span class="step-n">3</span><h3>See your matches</h3><p>Every frame gets a match score and a reason. Tap one to see it on you, in a quick 2D view or as a real 3D model, then nudge, resize and save the look.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── FACE SHAPES ───────────────────────── -->
+  <section class="guide" id="faces">
+    <div class="wrap">
+      <header class="section-head">
+        <p class="eyebrow">Face shape guide</p>
+        <h2>The idea is simple: <em>contrast and balance.</em></h2>
+        <p class="lede">Angular frames sharpen soft faces. Curved frames soften strong ones. Wide frames balance long faces. Choose a shape to see its best frames.</p>
+      </header>
+      <div class="shape-cards" id="shape-cards"></div>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── COLLECTION ───────────────────────── -->
+  <section class="collection" id="collection">
+    <div class="wrap">
+      <header class="section-head row">
+        <div>
+          <p class="eyebrow">The collection</p>
+          <h2>Every frame, <em>ready to try.</em></h2>
+        </div>
+        <p class="count" id="collection-count"></p>
+      </header>
+      <div class="coll-filters" id="coll-filters"></div>
+      <div class="grid" id="grid"></div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div>
+      <a class="brand" href="#top"><svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><path d="M6 26h52M12 26c0 10 5 16 12 16s10-6 11-16M29 26c1 10 4 16 11 16s12-6 12-16" fill="none" stroke="currentColor" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/></svg><span>{{SITE_NAME}}</span></a>
+      <p class="fine">Your photo is analysed in memory and never saved. Match scores are style guidance, not a promise of fit.</p>
+    </div>
+    <a class="btn btn-light btn-sm" href="#studio" data-action="start">Find my frames</a>
+  </div>
+</footer>
+
+<dialog class="quick" id="quick" aria-labelledby="quick-title">
+  <button class="quick-x" id="quick-x" aria-label="Close">×</button>
+  <div class="quick-img" id="quick-img"></div>
+  <div class="quick-body" id="quick-body"></div>
+</dialog>
+
+<div class="toast" id="toast" role="alert" hidden></div>
+
+<script type="module" src="/static/js/main.js"></script>
+</body>
+</html>
